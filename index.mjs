@@ -21,7 +21,6 @@ ffmpeg.setFfmpegPath(ffmpegPath);
 const PIXABAY_API_KEY = process.env.PIXABAY_API_KEY; // Replace with your API key
 const PIXABAY_API_URL = "https://pixabay.com/api/videos/";
 const PIXABAY_SEARCH_TERMS = [
-  "beautiful girl or girls",
   "nature",
   "nature dark",
   "aesthetic",
@@ -39,7 +38,7 @@ const JAMENDO_API_URL = "https://api.jamendo.com/v3.0/tracks";
 const JAMENDO_MUSIC_TAGS = ["classical", "jazz", "folk", "pop", "french"];
 
 const TIKTOK_TAGS =
-  "#quotes #quotesaesthetic #philosophy #tik_tok #foryoupage #fyp #foryou #viral #follow #followme #bestvideo #thisis4u #featurethis_ #viralvideo #trending #bestitktok";
+  "#quotes #quotesaesthetic #philosophy #tik_tok #foryoupage #fyp #foryou #viral #follow #followme #bestvideo #thisis4u #featurethis_ #viralvideo #trending #bestitktok #nature";
 
 async function fetchVideoFromPixabay(highlight) {
   const apiUrl = `${PIXABAY_API_URL}?key=${PIXABAY_API_KEY}&q=${_sample(
@@ -131,7 +130,9 @@ async function downloadMusic({ track, highlight }) {
 
     fs.appendFile(
       `${OUTPUT_DIR}/highlight-${highlight.id}/log.txt`,
-      `\nMusica:\n${JSON.stringify(track, null, 2)}`,
+      `\n\n🎵 ${track.name} by ${
+        track.artist_name
+      }\n\n${TIKTOK_TAGS}\n\nMusica:\n${JSON.stringify(track, null, 2)}`,
       err => {
         if (err) {
           console.error("Error writing music to log file:", err);
@@ -185,9 +186,21 @@ async function getHighlights() {
 function getHighlightText(highlight) {
   const maxChars = 140;
 
+  let text = highlight.text.replace(/\n/g, " ");
+
+  const description = `**${highlight.title}** by ${highlight.author}\n${
+    text.length > maxChars ? text : ""
+  }`;
+
+  text = text.length > maxChars ? `${text.slice(0, maxChars)}...` : text;
+
   fs.appendFile(
     `${OUTPUT_DIR}/highlight-${highlight.id}/log.txt`,
-    `\nQuote:\n${JSON.stringify(highlight, null, 2)}`,
+    `\nQuote:\n${JSON.stringify(
+      highlight,
+      null,
+      2
+    )}\nDescrição para o vídeo:\n${description}`,
     err => {
       if (err) {
         console.error("Error writing quote to log file:", err);
@@ -195,27 +208,6 @@ function getHighlightText(highlight) {
       }
     }
   );
-
-  let text = highlight.text.replace(/\n/g, " ");
-
-  const description = `${highlight.title}\n${
-    text.length > maxChars ? text : ""
-  }\n${TIKTOK_TAGS}`;
-
-  text = text.length > maxChars ? `${text.slice(0, maxChars)}...` : text;
-
-  fs.appendFile(
-    `${OUTPUT_DIR}/highlight-${highlight.id}/log.txt`,
-    `\nDescrição para o vídeo:\n${description}`,
-    err => {
-      if (err) {
-        console.error("Error writing description to log file:", err);
-        return;
-      }
-    }
-  );
-
-  text = `${text}\n\n${highlight.author}`;
 
   text = escapeFFmpegText(text);
 
@@ -287,6 +279,13 @@ async function addMusicToVideo({ highlight, videoFilePath, musicFilePath }) {
 
 async function generateVideo(highlight) {
   try {
+    if (fs.existsSync(path.join(OUTPUT_DIR, `highlight-${highlight.id}`))) {
+      console.log("Video already generated for highlight: ", highlight.id);
+      return;
+    }
+
+    console.log("Generating video for highlight: ", highlight.id);
+
     console.log("Fetching video from Pixabay...");
     const { videoFilePath, video } = await fetchVideoFromPixabay(highlight);
     console.log(`Done! Fetched video: ${video.id}`);
@@ -334,9 +333,15 @@ async function generateVideo(highlight) {
   try {
     const highlights = await getHighlights();
 
-    const test = highlights.slice(0, 2);
+    // Generate all highlights
+    // const limit = highlights.length;
 
-    test.forEach(hl => generateVideo(hl));
+    // for (let i = 0; i < limit; i++) {
+    //   await generateVideo(highlights[i]);
+    // }
+
+    // Generate random highlight
+    await generateVideo(_sample(highlights));
   } catch (error) {
     console.error("An error occurred in main:", error);
   }
