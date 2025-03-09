@@ -20,22 +20,31 @@ ffmpeg.setFfmpegPath(ffmpegPath);
 
 const PIXABAY_API_KEY = process.env.PIXABAY_API_KEY; // Replace with your API key
 const PIXABAY_API_URL = "https://pixabay.com/api/videos/";
-const PIXABAY_SEARCH_TERMS = [
-  "nature",
-  "nature dark",
-  "aesthetic",
-  "abstract",
-  "universe",
-  "movement",
-  "space",
-];
+// const PIXABAY_SEARCH_TERMS = [
+//   "nature dark",
+//   "aesthetic",
+//   "abstract",
+//   "universe",
+//   "movement",
+//   "art",
+// ];
+// const PIXABAY_SEARCH_TERMS = [
+//   "rain",
+//   "desert",
+//   "dark colors",
+//   "splash",
+//   "speed",
+//   "city",
+//   "sunset",
+// ];
+const PIXABAY_SEARCH_TERMS = ["old", "castle", "dark", "animal"];
 
 const READWISE_TOKEN = process.env.READWISE_TOKEN;
 const READWISE_API_URL = `https://readwise.io/api/v2/review/`;
 
 const JAMENDO_CLIENT_ID = process.env.JAMENDO_CLIENT_ID; // You'll need to register and get a client ID
 const JAMENDO_API_URL = "https://api.jamendo.com/v3.0/tracks";
-const JAMENDO_MUSIC_TAGS = ["classical", "jazz", "folk", "pop", "french"];
+const JAMENDO_MUSIC_TAGS = ["classical", "jazz"];
 
 const TIKTOK_TAGS =
   "#quotes #quotesaesthetic #philosophy #tik_tok #foryoupage #fyp #foryou #viral #follow #followme #bestvideo #thisis4u #featurethis_ #viralvideo #trending #bestitktok #nature";
@@ -52,9 +61,28 @@ async function fetchVideoFromPixabay(highlight) {
     throw new Error("No videos found in the Pixabay API response.");
   }
 
-  const video = _sample(
-    data.hits.filter(h => h.duration > 20 && h.duration < 60)
-  );
+  // garantir que não use um vídeo já usado
+  const usedVideosIds = fs.readFileSync("./used-videos.txt", "utf8").split(";");
+  const getRandomVideo = () => {
+    const sample = _sample(
+      data.hits.filter(h => h.duration > 20 && h.duration < 60)
+    );
+
+    if (usedVideosIds.includes(`${sample.id}`)) {
+      return getRandomVideo();
+    }
+
+    return sample;
+  };
+
+  const video = getRandomVideo();
+
+  fs.appendFile("./used-videos.txt", `${video.id};`, err => {
+    if (err) {
+      console.error("Error writing video id to used-videos file:", err);
+      return;
+    }
+  });
 
   // Get the video file URL
   const videoUrl = video.videos.medium.url;
@@ -183,9 +211,9 @@ async function getHighlights() {
   return data.highlights;
 }
 
-function getHighlightText(highlight) {
-  const maxChars = 140;
+const maxChars = 140;
 
+function getHighlightText(highlight) {
   let text = highlight.text.replace(/\n/g, " ");
 
   const description = `**${highlight.title}** by ${highlight.author}\n${
@@ -333,6 +361,8 @@ async function generateVideo(highlight) {
   try {
     const highlights = await getHighlights();
 
+    // console.log(highlights.map((h, i) => `${i} - ${h.text}`));
+
     // Generate all highlights
     // const limit = highlights.length;
 
@@ -341,7 +371,14 @@ async function generateVideo(highlight) {
     // }
 
     // Generate random highlight
-    await generateVideo(_sample(highlights));
+    await generateVideo(
+      _sample(highlights.filter(h => h.text.length <= maxChars))
+    );
+
+    // Generate specific highlight
+    // await generateVideo(highlights[9]);
+    // await generateVideo(highlights[11]);
+    // await generateVideo(highlights[12]);
   } catch (error) {
     console.error("An error occurred in main:", error);
   }
