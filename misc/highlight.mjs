@@ -10,7 +10,7 @@ const READWISE_API_URL = `https://readwise.io/api/v2/review/`;
 
 const OUTPUT_DIR = process.env.OUTPUT_DIR;
 
-const maxChars = 140;
+const maxChars = Number(process.env.MAX_CHARS);
 
 export async function getHighlights() {
   const response = await fetch(READWISE_API_URL, {

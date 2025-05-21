@@ -24,10 +24,10 @@ const PIXABAY_API_URL = "https://pixabay.com/api/videos/";
 //   "sunset",
 // ];
 const PIXABAY_SEARCH_TERMS = [
-  "nature",
   "animal funny",
   "animals movement",
   "animal",
+  "cat",
 ];
 
 const OUTPUT_DIR = process.env.OUTPUT_DIR;
@@ -48,7 +48,7 @@ export async function fetchVideoFromPixabay(highlight) {
   const usedVideosIds = fs.readFileSync("./used-videos.txt", "utf8").split(";");
   const getRandomVideo = () => {
     const sample = _sample(
-      data.hits.filter(h => h.duration > 20 && h.duration < 60)
+      data.hits.filter(h => h.duration > 20 && h.duration < 40)
     );
 
     if (usedVideosIds.includes(`${sample.id}`)) {

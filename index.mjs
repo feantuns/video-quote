@@ -1,6 +1,8 @@
 import "dotenv/config";
 import _sample from "lodash/sample.js";
 import fs from "fs";
+import readline from "readline/promises";
+import { stdin as input, stdout as output } from "node:process";
 import ffmpeg from "fluent-ffmpeg";
 import ffmpegPath from "ffmpeg-static";
 import path from "path";
@@ -83,24 +85,30 @@ async function generateVideo(highlight) {
 
     console.log(highlights.map((h, i) => `${i} - ${h.text}`));
 
-    // Generate all highlights
-    // const limit = highlights.length;
+    const rl = readline.createInterface({ input, output });
 
-    // for (let i = 0; i < limit; i++) {
-    //   await generateVideo(highlights[i]);
-    // }
+    const index = await rl.question("Inform the desired highlight index: ");
+    let highlight = highlights[index];
 
-    // Generate random highlight
-    // await generateVideo(
-    //   _sample(highlights.filter(h => h.text.length <= maxChars))
-    // );
+    if (!highlight) {
+      const highlightText = await rl.question("Inform the highlight text: ");
+      const highlightTitle = await rl.question(
+        "Inform the highlight title (name of the book): "
+      );
+      const highlightAuthor = await rl.question(
+        "Inform the highlight author: "
+      );
+      highlight = {
+        text: highlightText,
+        title: highlightTitle,
+        author: highlightAuthor,
+        id: Date.now(),
+      };
+    }
 
-    // await generateVideo(_sample(highlights));
+    await generateVideo(highlight);
 
-    // Generate specific highlight
-    await generateVideo(highlights[7]);
-    // await generateVideo(highlights[0]);
-    // await generateVideo(highlights[1]);
+    rl.close();
   } catch (error) {
     console.error("An error occurred in main:", error);
   }
