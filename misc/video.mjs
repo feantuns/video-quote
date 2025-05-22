@@ -33,9 +33,9 @@ const PIXABAY_SEARCH_TERMS = [
 const OUTPUT_DIR = process.env.OUTPUT_DIR;
 
 export async function fetchVideoFromPixabay(highlight) {
-  const apiUrl = `${PIXABAY_API_URL}?key=${PIXABAY_API_KEY}&q=${_sample(
-    PIXABAY_SEARCH_TERMS
-  )}&per_page=200&min_width=1080&min_height=1920`;
+  const apiUrl = `${PIXABAY_API_URL}?key=${PIXABAY_API_KEY}&q=${
+    highlight?.searchTerms || _sample(PIXABAY_SEARCH_TERMS)
+  }&per_page=200&min_width=1080&min_height=1920`;
   console.log("Fetching video by: ", apiUrl);
   const response = await fetch(apiUrl);
   const data = await response.json();

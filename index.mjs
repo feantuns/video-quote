@@ -106,6 +106,12 @@ async function generateVideo(highlight) {
       };
     }
 
+    const videoSearchTerms = await rl.question(
+      "Inform the optional video search terms: "
+    );
+
+    highlight.searchTerms = videoSearchTerms;
+
     await generateVideo(highlight);
 
     rl.close();
