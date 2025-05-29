@@ -1,0 +1,87 @@
+
+Video:
+{
+  "id": 120892,
+  "pageURL": "https://pixabay.com/videos/id-120892/",
+  "type": "film",
+  "tags": "sea, beach, boat, drone, finistère, france, reflections, landscape",
+  "duration": 30,
+  "videos": {
+    "large": {
+      "url": "https://cdn.pixabay.com/video/2022/06/19/120892-724673778_large.mp4",
+      "width": 3840,
+      "height": 2160,
+      "size": 71857524,
+      "thumbnail": "https://cdn.pixabay.com/video/2022/06/19/120892-724673778_large.jpg"
+    },
+    "medium": {
+      "url": "https://cdn.pixabay.com/video/2022/06/19/120892-724673778_medium.mp4",
+      "width": 2560,
+      "height": 1440,
+      "size": 46655879,
+      "thumbnail": "https://cdn.pixabay.com/video/2022/06/19/120892-724673778_medium.jpg"
+    },
+    "small": {
+      "url": "https://cdn.pixabay.com/video/2022/06/19/120892-724673778_small.mp4",
+      "width": 1920,
+      "height": 1080,
+      "size": 21239444,
+      "thumbnail": "https://cdn.pixabay.com/video/2022/06/19/120892-724673778_small.jpg"
+    },
+    "tiny": {
+      "url": "https://cdn.pixabay.com/video/2022/06/19/120892-724673778_tiny.mp4",
+      "width": 1280,
+      "height": 720,
+      "size": 11088239,
+      "thumbnail": "https://cdn.pixabay.com/video/2022/06/19/120892-724673778_tiny.jpg"
+    }
+  },
+  "views": 419,
+  "downloads": 212,
+  "likes": 7,
+  "comments": 0,
+  "user_id": 27426241,
+  "user": "Tom_Dorval",
+  "userImageURL": "https://cdn.pixabay.com/user/2022/05/15/17-33-49-599_250x250.jpg",
+  "noAiTraining": false
+}
+Quote:
+{
+  "text": "Nossa visão reflete nossa alma.",
+  "mood": "filosófico",
+  "tags": "reflexo natureza",
+  "hashtags": "#Inspiracao #Reflexao #Vida #Motivacao #AutoConhecimento",
+  "description": "Descubra como sua percepção reflete quem você é.",
+  "prompt": "Crie citações-síntese a partir do conjunto das citações abaixo de forma que as sumarize em uma nova frase de até 120 caracteres. Gere 3 versões com tons diferentes (filosófico, emocional, poético, provocador etc.). 2 com algum dos tons de exemplo (escolhidos de forma aleatória) e 1 com um tom aleatório (sem ser algum dos que citei) que você acredite fazer sentido para o contexto após análise das citações, sempre mantendo o mais humano possível. Gere cada uma com um tamanho diferente, a primeira curta, a segunda média e a terceira próxima do limite de 120 caracteres. As citações-síntese devem ser retornadas em um array JSON, com cada objeto contendo as propriedades \"text\" e \"mood\". Além disso, adicione uma propriedade \"tags\" contendo palavras-chave em inglês que possam ser usadas para buscar vídeos de fundo que remetam às citações. As tags devem ser palavras concretas como \"nature\", \"animals\", \"mountains\", \"sea\", \"fish\" e outras baseadas mas não limitadas a essas. e devem ser combinadas em uma string separadas apenas por espaço em branco. Adicione também uma propriedade \"hashtags\" que sejam 5 ou mais palavras otimizadas comumente usadas em vídeos de sucesso para que o vídeo tenha mais chances de ser visto nas mais variadas plataformas como tiktok, youtube shorts e instagram reels para um público brasileiro. Por fim, adicione uma propriedade \"description\" que será a descrição usada no vídeo. O resultado deve ser um json válido dessa forma: {\"body\": array com as 3 citações}.\n\nCitações:\n\n\"Nós não vemos o que vemos, nós vemos o que somos. Só veem as belezas do mundo, aqueles que têm belezas dentro de si.\"\nRubem Alves\n\nSegundo Liebig, o corpo do homem é uma fornalha, e o alimento é o combustível que mantém a combustão interna nos pulmões.\n\nO que eu queria, e não posso, é por exemplo que tudo o que me viesse de bom de dentro de mim eu pudesse dar aquilo que eu pertencesse.\n\nNão sei selecionar as que mais me comoveram. Todas esquentaram meu coração, todas quiseram me dar a mão para me ajudar a subir mais e ver de algum modo a grande paisagem do mundo, todas me fizeram muito bem\n\nQuanto tempo você acha que a raça humana vai viver?\n\nProvavelmente a senhorita é jovem demais para saber que nossa vida é muito simples.\n\nQuem vê a beleza divina num cacho de vaga-lumes com certeza viu a glória de Deus.\n\nParasite por muito tempo e não será capaz de existir sem um hospedeiro.\n\nHow can the rest of us achieve such enviable freedom from clutter? The answer is to clear our heads of clutter. Clear thinking becomes clear writing; one can’t exist without the other.\n\nLet him lose himself in wonders as amazing in their littleness as the others in their vastness.\n\nSe você levar os sentimentos de seus filhos a sério e os reconfortar quando eles precisarem, aos poucos eles vão aprender a internalizar essa forma de se reconfortar e, com o tempo, vão se tornar capazes de fazer isso por conta própria.\n\nTudo mata de uma maneira ou de outra. Pescar mata-me tal como me faz viver.\n\n“What is the good of it? What is the good of doing anything, when the best part of my life is being wasted like this?” and to this question, tears were my only answer.\n\nSem a agonia do espírito, que é uma experiência sem palavras, não há significados em nenhum lugar.\n\nTo live an inspired life your mind must cultivate empowering thoughts through your beliefs, assumptions, agreements, words, feelings, choices, and actions.",
+  "temperature": 1.2320364372991706,
+  "id": "dfcb7581-c493-4a9b-a68c-79504eaa16b3",
+  "promptResponse": "{\n  \"body\": [\n    {\n      \"text\": \"Nossa visão reflete nossa alma.\",\n      \"mood\": \"filosófico\",\n      \"tags\": \"reflexo natureza\",\n      \"hashtags\": \"#Inspiracao #Reflexao #Vida #Motivacao #AutoConhecimento\",\n      \"description\": \"Descubra como sua percepção reflete quem você é.\",\n      \"prompt\": \"Crie citações-síntese a partir do conjunto das citações abaixo de forma que as sumarize em uma nova frase de até 120 caracteres. Gere 3 versões com tons diferentes (filosófico, emocional, poético, provocador etc.). 2 com algum dos tons de exemplo (escolhidos de forma aleatória) e 1 com um tom aleatório (sem ser algum dos que citei) que você acredite fazer sentido para o contexto após análise das citações, sempre mantendo o mais humano possível. Gere cada uma com um tamanho diferente, a primeira curta, a segunda média e a terceira próxima do limite de 120 caracteres. As citações-síntese devem ser retornadas em um array JSON, com cada objeto contendo as propriedades \\\"text\\\" e \\\"mood\\\". Além disso, adicione uma propriedade \\\"tags\\\" contendo palavras-chave em inglês que possam ser usadas para buscar vídeos de fundo que remetam às citações. As tags devem ser palavras concretas como \\\"nature\\\", \\\"animals\\\", \\\"mountains\\\", \\\"sea\\\", \\\"fish\\\" e outras baseadas mas não limitadas a essas. e devem ser combinadas em uma string separadas apenas por espaço em branco. Adicione também uma propriedade \\\"hashtags\\\" que sejam 5 ou mais palavras otimizadas comumente usadas em vídeos de sucesso para que o vídeo tenha mais chances de ser visto nas mais variadas plataformas como tiktok, youtube shorts e instagram reels para um público brasileiro. Por fim, adicione uma propriedade \\\"description\\\" que será a descrição usada no vídeo. O resultado deve ser um json válido dessa forma: {\\\"body\\\": array com as 3 citações}.\\n\\nCitações:\\n\\n\\\"Nós não vemos o que vemos, nós vemos o que somos. Só veem as belezas do mundo, aqueles que têm belezas dentro de si.\\\"\\nRubem Alves\\n\\nSegundo Liebig, o corpo do homem é uma fornalha, e o alimento é o combustível que mantém a combustão interna nos pulmões.\\n\\nO que eu queria, e não posso, é por exemplo que tudo o que me viesse de bom de dentro de mim eu pudesse dar aquilo que eu pertencesse.\\n\\nNão sei selecionar as que mais me comoveram. Todas esquentaram meu coração, todas quiseram me dar a mão para me ajudar a subir mais e ver de algum modo a grande paisagem do mundo, todas me fizeram muito bem\\n\\nQuanto tempo você acha que a raça humana vai viver?\\n\\nProvavelmente a senhorita é jovem demais para saber que nossa vida é muito simples.\\n\\nQuem vê a beleza divina num cacho de vaga-lumes com certeza viu a glória de Deus.\\n\\nParasite por muito tempo e não será capaz de existir sem um hospedeiro.\\n\\nHow can the rest of us achieve such enviable freedom from clutter? The answer is to clear our heads of clutter. Clear thinking becomes clear writing; one can’t exist without the other.\\n\\nLet him lose himself in wonders as amazing in their littleness as the others in their vastness.\\n\\nSe você levar os sentimentos de seus filhos a sério e os reconfortar quando eles precisarem, aos poucos eles vão aprender a internalizar essa forma de se reconfortar e, com o tempo, vão se tornar capazes de fazer isso por conta própria.\\n\\nTudo mata de uma maneira ou de outra. Pescar mata-me tal como me faz viver.\\n\\n“What is the good of it? What is the good of doing anything, when the best part of my life is being wasted like this?” and to this question, tears were my only answer.\\n\\nSem a agonia do espírito, que é uma experiência sem palavras, não há significados em nenhum lugar.\\n\\nTo live an inspired life your mind must cultivate empowering thoughts through your beliefs, assumptions, agreements, words, feelings, choices, and actions.\",\n      \"temperature\": 1.2320364372991706,\n      \"id\": \"dfcb7581-c493-4a9b-a68c-79504eaa16b3\"\n    },\n    {\n      \"text\": \"Nós vemos o mundo com os olhos da alma, e é nela que encontramos a verdadeira beleza e a conexão com o mundo ao nosso redor, nutrindo nossa essência e alimentando nosso espírito.\",\n      \"mood\": \"emocional\",\n      \"tags\": \"natureza montanhas campo animais\",\n      \"hashtags\": \"#DesenvolvimentoPessoal #BemEstar #Felicidade #Inspiracao #Motivacao\",\n      \"description\": \"Explore como suas experiências moldam sua visão de mundo e inspire-se a crescer.\"\n    },\n    {\n      \"text\": \"Nossa vida é uma jornada de autodescoberta e conexão com o mundo; ao cultivar pensamentos empoderadores e viver experiências significativas, encontramos propósito e significado, libertando-nos do vazio e alcançando a plenitude em cada momento.\",\n      \"mood\": \"poético\",\n      \"tags\": \"mar montanhas nuvens animais peixes\",\n      \"hashtags\": \"#VidaInspirada #AutoConhecimento #DesenvolvimentoPessoal #Felicidade #Sucesso\",\n      \"description\": \"Embarque nessa jornada de descoberta e transformação, e permita que cada momento seja uma oportunidade de crescimento e inspiração.\"\n    }\n  ]\n}"
+}
+Descrição para o vídeo:
+**Descubra como sua percepção reflete quem você é.**
+#Inspiracao #Reflexao #Vida #Motivacao #AutoConhecimento
+🎵 Moment Musicaux, Op. 16 Andantino B-flat minor by Matti Paalanen
+
+Musica:
+{
+  "id": "1370482",
+  "name": "Moment Musicaux, Op. 16 Andantino B-flat minor",
+  "duration": 266,
+  "artist_id": "3944",
+  "artist_name": "Matti Paalanen",
+  "artist_idstr": "matti.paalanen",
+  "album_name": "Rachmaninoff Piano Collection",
+  "album_id": "161210",
+  "license_ccurl": "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+  "position": 1,
+  "releasedate": "2016-08-23",
+  "album_image": "https://usercontent.jamendo.com?type=album&id=161210&width=300&trackid=1370482",
+  "audio": "https://prod-1.storage.jamendo.com/?trackid=1370482&format=mp31&from=CQ1NEV4kJwvDA8qlvu4ZAg%3D%3D%7Cl0OWyUkiUlixSAd3CH6AEw%3D%3D",
+  "audiodownload": "https://prod-1.storage.jamendo.com/download/track/1370482/mp32/",
+  "prourl": "https://licensing.jamendo.com/track/1370482",
+  "shorturl": "https://jamen.do/t/1370482",
+  "shareurl": "https://www.jamendo.com/track/1370482",
+  "waveform": "{\"peaks\":[1,5,3,5,6,9,12,7,6,7,6,5,4,5,9,9,13,15,18,18,18,30,36,34,29,27,26,14,8,12,32,33,20,16,14,11,14,18,19,17,12,10,9,7,4,8,9,20,19,23,23,23,43,45,39,32,30,37,27,13,18,44,32,25,19,18,12,14,15,15,12,12,8,7,6,4,5,6,8,14,27,35,29,22,33,39,41,42,38,33,20,18,17,22,28,41,61,36,39,46,44,31,27,30,19,15,10,7,6,9,14,33,31,31,22,23,29,34,35,38,66,63,40,19,21,24,40,46,51,53,50,45,50,50,42,53,62,46,51,40,34,66,68,60,62,67,47,58,74,65,68,73,63,65,56,40,26,27,48,45,47,39,24,14,8,3,2,1,1,0,0,0,0,0,8,7,9,17,30,24,16,10,7,3,7,8,13,17,14,9,5,3,4,2,4,3,1,1,2,2,1,5,4,4,6,8,5,6,9,7,12,10,11,7,5,6,6,5,9,12,10,6,4,6,5,7,9,8,8,5,3,6,3,3,5,7,8,8,6,8,12,18,14,13,8,5,6,9,10,13,12,13,11,10,9,8,9,8,8,8,4,2,6,5,3,2,3,5,8,7,7,8,8,10,16,14,8,5,5,4,4,7,13,15,21,16,9,5,6,8,8,6,7,6,3,4,10,8,6,4,3,4,4,6,5,4,4,7,6,5,8,9,7,4,3,5,4,5,9,12,8,3,3,8,14,14,20,25,31,32,27,18,11,12,19,12,11,9,7,9,13,21,17,12,8,9,8,8,9,13,11,10,20,20,12,6,11,21,25,23,24,30,41,34,31,20,22,31,18,17,13,13,22,15,13,9,7,21,29,31,33,61,39,22,18,32,25,22,34,44,47,64,42,41,40,39,31,35,45,46,49,61,52,67,45,50,69,74,100,86,82,50,32,39,30,32,37,27,12,25,33,34,12,9,17,15,20,27,16,8,13,20,9,4,4,6,7,7,8,8,7,6,4,3,5,5,5,4,3,7,6,4,2,2,5,8,8,7,9,12,12,15,11,15,12,10,8,8,7,8,7,6,7,7,10,10,10,7,6,6,9,9,11,11,9,7,10,10,8,3,3,3,4,6,5,4,5,5,6,6,13,21,25,24,19,12,11,25,30,36,25,31,33,24,17,28,34,37,34,36,39,44,40,34,27,23,22,18,22,26,20,14,9,14,23,32,31,24,16,16,9,6,4,3,3,3,7,9,6,5,6,17,25,30,27,14,7,13,21,23,19,16,8,8,14,18,16,17,14,11,10,7,7,5,4,3,2,3,7,7,12,17,17,18,17,30,33,30,23,15,8,12,23,37,29,21,12,16,22,31,21,21,13,7,13,24,26,34,31,34,38,52,50,34,28,19,30,50,39,25,21,14,16,19,21,15,12,10,6,7,7,14,17,23,24,39,46,46,35,27,18,18,26,38,50,46,43,40,46,37,24,15,8,10,19,28,33,25,24,28,35,37,62,45,20,29,49,52,58,58,56,65,72,69,64,55,27,55,61,56,57,55,48,69,87,68,63,62,53,54,76,76,68,66,46,38,51,46,33,45,65,56,38,19,31,34,36,43,29,20,17,25,44,51,39,19,8,6,2,1,1,1,0,0,1,17,10,9,29,34,26,13,9,5,2,10,12,19,21,14,12,6,8,5,4,4,3,3,13,16,10,9,8,8,15,15,13,14,24,25,33,25,20,17,16,13,19,21,21,33,21,16,8,12,17,13,14,31,28,10,12,19,16,10,19,27,20,15,18,32,44,43,29,25,25,19,26,23,16,35,24,14,7,6,10,6,8,13,21,9,6,4,6,8,6,4,6,13,16,15,13,25,14,16,24,18,13,9,10,9,7,6,6,5,4,5,6,4,4,4,7,30,27,24,39,40,20,24,34,23,39,35,30,26,31,44,45,28,25,19,6,4,2,2,1,3,5,10,9,5,2,2,2,1,1,1,1,2,2,2,2,6,7,11,17,18,13,8,4,8,18,25,22,18,11,7,3,6,12,9,8,5,13,11,8,5,4,7,8,10,9,7,9,14,17,12,9,14,15,8,6,4,5,4,3,3,3,3,3,3,2,2,2,5,4,3,2,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0]}",
+  "image": "https://usercontent.jamendo.com?type=album&id=161210&width=300&trackid=1370482",
+  "audiodownload_allowed": true
+}

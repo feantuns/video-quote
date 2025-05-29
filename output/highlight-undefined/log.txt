@@ -1,0 +1,84 @@
+
+Video:
+{
+  "id": 153907,
+  "pageURL": "https://pixabay.com/videos/id-153907/",
+  "type": "film",
+  "tags": "cliff, top, mountain, coast, sea, ocean, beautiful wallpaper, sky, nature, peaceful, island, tourism, trip, holiday, background, tropical, kennedy",
+  "duration": 35,
+  "videos": {
+    "large": {
+      "url": "https://cdn.pixabay.com/video/2023/03/09/153907-806526830_large.mp4",
+      "width": 2160,
+      "height": 3840,
+      "size": 109185206,
+      "thumbnail": "https://cdn.pixabay.com/video/2023/03/09/153907-806526830_large.jpg"
+    },
+    "medium": {
+      "url": "https://cdn.pixabay.com/video/2023/03/09/153907-806526830_medium.mp4",
+      "width": 1440,
+      "height": 2560,
+      "size": 59552720,
+      "thumbnail": "https://cdn.pixabay.com/video/2023/03/09/153907-806526830_medium.jpg"
+    },
+    "small": {
+      "url": "https://cdn.pixabay.com/video/2023/03/09/153907-806526830_small.mp4",
+      "width": 1080,
+      "height": 1920,
+      "size": 24828689,
+      "thumbnail": "https://cdn.pixabay.com/video/2023/03/09/153907-806526830_small.jpg"
+    },
+    "tiny": {
+      "url": "https://cdn.pixabay.com/video/2023/03/09/153907-806526830_tiny.mp4",
+      "width": 720,
+      "height": 1280,
+      "size": 12427948,
+      "thumbnail": "https://cdn.pixabay.com/video/2023/03/09/153907-806526830_tiny.jpg"
+    }
+  },
+  "views": 4423,
+  "downloads": 1983,
+  "likes": 58,
+  "comments": 2,
+  "user_id": 3656355,
+  "user": "Engin_Akyurt",
+  "userImageURL": "https://cdn.pixabay.com/user/2018/09/20/08-02-23-312_250x250.jpg",
+  "noAiTraining": false
+}
+Quote:
+{
+  "text": "A vida é um reflexo do que somos por dentro.",
+  "mood": "filosófico",
+  "tags": "nature mountains sea",
+  "hashtags": "#Vida #Reflexão #CrescimentoPessoal #Inspirational #Motivação",
+  "description": "Descubra como a sua vida é um reflexo do que você é por dentro.",
+  "prompt": "\nCrie citações-síntese a partir do conjunto das citações abaixo de forma que as sumarize em uma nova frase de até 140 caracteres. Gere 3 versões com tons diferentes (filosófico, emocional, poético, provocador etc.), 2 com algum dos tons de exemplo e 1 com um tom aleatório que você acredite fazer sentido para o contexto após análise das citações. As citações-síntese devem ser retornadas em um array JSON, com cada objeto contendo as propriedades \"text\" e \"mood\". Além disso, adicione uma propriedade \"tags\" contendo palavras-chave em inglês que possam ser usadas para buscar vídeos de fundo que remetam às citações. As tags devem ser palavras concretas como \"nature\", \"animals\", \"mountains\", \"sea\", \"fish\" e outras baseadas mas não limitadas a essas. e devem ser combinadas em uma string separadas apenas por espaço em branco. Adicione também uma propriedade \"hashtags\" que sejam 5 ou mais palavras otimizadas comumente usadas em vídeos de sucesso para que o vídeo tenha mais chances de ser visto nas mais variadas plataformas como tiktok, youtube shorts e instagram reels para um público brasileiro. Por fim, adicione uma propriedade \"description\" que será a descrição usada no vídeo.  O resultado deve ser um json válido dessa forma: {\"body\": array com as 3 citações}.\n\nCitações:\n\n\"Nós não vemos o que vemos, nós vemos o que somos. Só veem as belezas do mundo, aqueles que têm belezas dentro de si.\"\nRubem Alves\n\nSegundo Liebig, o corpo do homem é uma fornalha, e o alimento é o combustível que mantém a combustão interna nos pulmões.\n\nO que eu queria, e não posso, é por exemplo que tudo o que me viesse de bom de dentro de mim eu pudesse dar aquilo que eu pertencesse.\n\nNão sei selecionar as que mais me comoveram. Todas esquentaram meu coração, todas quiseram me dar a mão para me ajudar a subir mais e ver de algum modo a grande paisagem do mundo, todas me fizeram muito bem\n\nQuanto tempo você acha que a raça humana vai viver?\n\nProvavelmente a senhorita é jovem demais para saber que nossa vida é muito simples.\n\nQuem vê a beleza divina num cacho de vaga-lumes com certeza viu a glória de Deus.\n\nParasite por muito tempo e não será capaz de existir sem um hospedeiro.\n\nHow can the rest of us achieve such enviable freedom from clutter? The answer is to clear our heads of clutter. Clear thinking becomes clear writing; one can’t exist without the other.\n\nLet him lose himself in wonders as amazing in their littleness as the others in their vastness.\n\nSe você levar os sentimentos de seus filhos a sério e os reconfortar quando eles precisarem, aos poucos eles vão aprender a internalizar essa forma de se reconfortar e, com o tempo, vão se tornar capazes de fazer isso por conta própria.\n\nTudo mata de uma maneira ou de outra. Pescar mata-me tal como me faz viver.\n\n“What is the good of it? What is the good of doing anything, when the best part of my life is being wasted like this?” and to this question, tears were my only answer.\n\nSem a agonia do espírito, que é uma experiência sem palavras, não há significados em nenhum lugar.\n\nTo live an inspired life your mind must cultivate empowering thoughts through your beliefs, assumptions, agreements, words, feelings, choices, and actions.",
+  "temperature": 1.1278862883479857
+}
+Descrição para o vídeo:
+**Descubra como a sua vida é um reflexo do que você é por dentro.**
+#Vida #Reflexão #CrescimentoPessoal #Inspirational #Motivação🎵 Cherry Ripe by The Meedie Player Organ
+
+Musica:
+{
+  "id": "1857280",
+  "name": "Cherry Ripe",
+  "duration": 118,
+  "artist_id": "441051",
+  "artist_name": "The Meedie Player Organ",
+  "artist_idstr": "The_Meedie_Player_Organ",
+  "album_name": "Traditional Music in Just Intonation",
+  "album_id": "201485",
+  "license_ccurl": "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+  "position": 19,
+  "releasedate": "2021-05-10",
+  "album_image": "https://usercontent.jamendo.com?type=album&id=201485&width=300&trackid=1857280",
+  "audio": "https://prod-1.storage.jamendo.com/?trackid=1857280&format=mp31&from=NBUnIK6HShbkXtMxeKbiYQ%3D%3D%7CV3Wf21yS9sKEx5hNqM0bRw%3D%3D",
+  "audiodownload": "https://prod-1.storage.jamendo.com/download/track/1857280/mp32/",
+  "prourl": "",
+  "shorturl": "https://jamen.do/t/1857280",
+  "shareurl": "https://www.jamendo.com/track/1857280",
+  "waveform": "{\"peaks\":[10,57,59,67,76,63,72,74,70,78,70,61,66,64,82,72,81,83,76,70,71,68,87,71,57,58,56,57,47,48,54,42,53,61,52,53,57,54,69,67,69,79,71,75,64,58,53,52,42,48,47,52,60,54,49,42,49,54,45,60,54,53,57,55,63,67,61,74,69,66,78,72,77,80,67,63,66,72,77,72,79,81,75,79,84,86,78,70,82,79,65,78,79,70,79,70,64,63,67,85,75,80,79,73,76,78,78,70,56,50,50,47,60,52,51,55,42,61,61,50,42,44,44,60,65,73,76,74,85,72,70,76,66,63,69,58,74,69,66,70,55,67,62,56,70,56,64,72,55,79,70,63,75,71,65,69,70,78,80,84,78,67,61,60,51,46,43,41,36,34,57,71,68,66,74,62,76,75,76,74,63,76,65,71,80,77,76,76,67,85,76,82,76,63,71,77,59,64,64,60,70,64,76,82,72,88,79,76,76,66,75,63,54,70,72,75,75,72,78,87,84,83,75,76,77,78,82,77,63,69,70,76,82,72,78,66,69,71,68,62,62,58,56,63,92,82,71,67,74,69,80,77,85,83,70,71,71,66,70,67,66,73,64,68,78,81,81,72,71,77,64,76,67,59,69,71,66,71,73,76,78,74,75,74,73,76,76,75,66,61,72,73,71,69,71,63,60,65,71,64,63,69,70,70,65,64,74,76,79,65,66,82,71,64,69,58,70,71,67,67,72,68,73,70,78,82,77,83,83,72,71,63,78,69,67,71,61,72,68,59,64,68,68,84,80,73,77,75,73,76,76,89,71,76,67,58,68,63,62,67,66,72,69,71,73,69,66,67,57,69,68,73,81,79,73,47,38,42,44,45,47,50,67,68,64,79,76,58,77,72,72,76,66,66,62,65,84,75,80,78,73,79,79,82,78,68,56,57,55,59,44,49,51,44,58,57,51,53,54,60,70,69,71,69,65,75,59,52,56,50,42,46,45,61,60,54,38,46,49,46,53,62,51,55,57,56,66,64,57,65,63,74,69,64,79,74,60,69,68,73,71,68,90,82,74,83,79,88,72,74,86,78,63,79,71,76,76,63,66,63,77,81,72,72,80,76,78,71,81,63,58,45,50,54,45,36,54,49,48,65,54,52,50,50,52,62,66,79,74,81,80,69,66,78,72,73,65,59,72,62,65,71,55,69,60,55,70,56,65,70,63,81,63,66,75,72,62,67,72,80,76,81,77,68,60,61,52,50,42,36,35,32,30,27,27,30,40,49,50,51,53,56,61,50,41,39,32,35,53,49,43,39,38,44,39,31,44,45,52,51,45,45,44,42,49,48,45,46,44,44,38,37,42,38,48,49,49,56,56,64,60,46,47,46,41,62,64,62,74,68,62,75,59,66,71,66,81,62,70,70,61,65,63,77,82,70,74,79,66,86,86,77,75,77,81,87,75,79,74,67,64,61,57,67,62,63,67,66,67,60,68,73,61,53,60,66,65,51,66,57,58,59,56,61,67,53,60,58,52,68,58,55,67,61,64,67,64,65,61,74,72,67,74,76,64,71,65,60,74,65,75,54,56,72,61,59,72,60,71,63,78,72,68,69,78,73,81,79,73,81,74,74,65,61,68,74,82,79,69,79,75,60,63,53,65,66,60,68,72,62,63,58,80,75,63,82,77,73,81,63,69,70,77,82,75,78,94,82,77,80,77,84,78,87,89,72,82,77,87,92,78,83,86,77,79,81,76,88,85,88,100,82,84,88,78,85,72,67,74,64,84,69,63,70,56,54,58,52,63,62,66,71,67,71,66,62,74,71,64,81,73,88,86,72,72,66,54,69,65,72,74,61,72,69,61,72,62,59,64,57,69,51,67,71,55,61,69,65,77,63,66,75,69,60,59,60,60,54,64,71,71,68,69,74,93,68,71,81,67,76,93,80,93,88,72,97,84,87,95,84,73,88,66,79,73,64,77,68,64,77,68,79,87,75,80,81,85,80,76,41,36,31,33,62,69,77,78,80,75,69,51,35,29,24,57,58,53,70,69,71,79,67,55,71,66,78,76,66,53,47,50,75,69,58,48,45,67,72,63,53,50,46,48,52,53,53,52,49,46,44,47,49,51,55,54,53,51,49,35,29,27,20,18,14,8,7,5,4,3,3,3,2,1,1,1,1,1,0,0,0]}",
+  "image": "https://usercontent.jamendo.com?type=album&id=201485&width=300&trackid=1857280",
+  "audiodownload_allowed": true
+}

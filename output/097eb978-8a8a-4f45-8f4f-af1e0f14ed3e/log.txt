@@ -1,0 +1,87 @@
+
+Video:
+{
+  "id": 203660,
+  "pageURL": "https://pixabay.com/videos/id-203660/",
+  "type": "film",
+  "tags": "mountain, river, sea, ice, snow, cold, nature",
+  "duration": 24,
+  "videos": {
+    "large": {
+      "url": "https://cdn.pixabay.com/video/2024/03/10/203660-921832585_large.mp4",
+      "width": 1080,
+      "height": 1920,
+      "size": 15243684,
+      "thumbnail": "https://cdn.pixabay.com/video/2024/03/10/203660-921832585_large.jpg"
+    },
+    "medium": {
+      "url": "https://cdn.pixabay.com/video/2024/03/10/203660-921832585_medium.mp4",
+      "width": 720,
+      "height": 1280,
+      "size": 8011307,
+      "thumbnail": "https://cdn.pixabay.com/video/2024/03/10/203660-921832585_medium.jpg"
+    },
+    "small": {
+      "url": "https://cdn.pixabay.com/video/2024/03/10/203660-921832585_small.mp4",
+      "width": 540,
+      "height": 960,
+      "size": 4186539,
+      "thumbnail": "https://cdn.pixabay.com/video/2024/03/10/203660-921832585_small.jpg"
+    },
+    "tiny": {
+      "url": "https://cdn.pixabay.com/video/2024/03/10/203660-921832585_tiny.mp4",
+      "width": 360,
+      "height": 640,
+      "size": 2405921,
+      "thumbnail": "https://cdn.pixabay.com/video/2024/03/10/203660-921832585_tiny.jpg"
+    }
+  },
+  "views": 21041,
+  "downloads": 10869,
+  "likes": 177,
+  "comments": 27,
+  "user_id": 30721818,
+  "user": "BINGIL",
+  "userImageURL": "https://cdn.pixabay.com/user/2023/04/17/13-20-37-790_250x250.jpg",
+  "noAiTraining": false
+}
+Quote:
+{
+  "text": "A vida é reflexo do que somos",
+  "mood": "filosófico",
+  "tags": "nature mountains sea",
+  "hashtags": "vida reflexo sucesso inspiracao crescimento",
+  "description": "Reflexão sobre a vida e como ela reflete quem somos",
+  "prompt": "Crie citações-síntese a partir do conjunto das citações abaixo de forma que as sumarize em uma nova frase de até 120 caracteres. Gere 3 versões com tons diferentes (filosófico, emocional, poético, provocador etc.). 2 com algum dos tons de exemplo (escolhidos de forma aleatória) e 1 com um tom aleatório (sem ser algum dos que citei) que você acredite fazer sentido para o contexto após análise das citações, sempre mantendo o mais humano possível. Gere cada uma com um tamanho diferente, a primeira curta, a segunda média e a terceira próxima do limite de 120 caracteres. Não ultrapasse o limite de 120 em nenhuma delas e considere os espaços em branco entre as palavras na contagem de caracteres! As citações-síntese devem ser retornadas em um array JSON, com cada objeto contendo as propriedades \"text\" e \"mood\". Além disso, adicione uma propriedade \"tags\" contendo palavras-chave em inglês que possam ser usadas para buscar vídeos de fundo que remetam às citações. As tags devem ser palavras concretas como \"nature\", \"animals\", \"mountains\", \"sea\", \"fish\" e outras baseadas mas não limitadas a essas. e devem ser combinadas em uma string separadas apenas por espaço em branco. Adicione também uma propriedade \"hashtags\" que sejam 5 ou mais palavras otimizadas comumente usadas em vídeos de sucesso para que o vídeo tenha mais chances de ser visto nas mais variadas plataformas como tiktok, youtube shorts e instagram reels para um público brasileiro. Por fim, adicione uma propriedade \"description\" que será a descrição usada no vídeo. O resultado deve ser um json válido dessa forma: {\"body\": array com as 3 citações}.\n\nCitações:\n\n\"Nós não vemos o que vemos, nós vemos o que somos. Só veem as belezas do mundo, aqueles que têm belezas dentro de si.\"\nRubem Alves\n\nSegundo Liebig, o corpo do homem é uma fornalha, e o alimento é o combustível que mantém a combustão interna nos pulmões.\n\nO que eu queria, e não posso, é por exemplo que tudo o que me viesse de bom de dentro de mim eu pudesse dar aquilo que eu pertencesse.\n\nNão sei selecionar as que mais me comoveram. Todas esquentaram meu coração, todas quiseram me dar a mão para me ajudar a subir mais e ver de algum modo a grande paisagem do mundo, todas me fizeram muito bem\n\nQuanto tempo você acha que a raça humana vai viver?\n\nProvavelmente a senhorita é jovem demais para saber que nossa vida é muito simples.\n\nQuem vê a beleza divina num cacho de vaga-lumes com certeza viu a glória de Deus.\n\nParasite por muito tempo e não será capaz de existir sem um hospedeiro.\n\nHow can the rest of us achieve such enviable freedom from clutter? The answer is to clear our heads of clutter. Clear thinking becomes clear writing; one can’t exist without the other.\n\nLet him lose himself in wonders as amazing in their littleness as the others in their vastness.\n\nSe você levar os sentimentos de seus filhos a sério e os reconfortar quando eles precisarem, aos poucos eles vão aprender a internalizar essa forma de se reconfortar e, com o tempo, vão se tornar capazes de fazer isso por conta própria.\n\nTudo mata de uma maneira ou de outra. Pescar mata-me tal como me faz viver.\n\n“What is the good of it? What is the good of doing anything, when the best part of my life is being wasted like this?” and to this question, tears were my only answer.\n\nSem a agonia do espírito, que é uma experiência sem palavras, não há significados em nenhum lugar.\n\nTo live an inspired life your mind must cultivate empowering thoughts through your beliefs, assumptions, agreements, words, feelings, choices, and actions.",
+  "temperature": 1.3496901359259579,
+  "id": "097eb978-8a8a-4f45-8f4f-af1e0f14ed3e",
+  "promptResponse": "{\n  \"body\": [\n    {\n      \"text\": \"A vida é reflexo do que somos\",\n      \"mood\": \"filosófico\",\n      \"tags\": \"nature mountains sea\",\n      \"hashtags\": \"vida reflexo sucesso inspiracao crescimento\",\n      \"description\": \"Reflexão sobre a vida e como ela reflete quem somos\",\n      \"prompt\": \"Crie citações-síntese a partir do conjunto das citações abaixo de forma que as sumarize em uma nova frase de até 120 caracteres. Gere 3 versões com tons diferentes (filosófico, emocional, poético, provocador etc.). 2 com algum dos tons de exemplo (escolhidos de forma aleatória) e 1 com um tom aleatório (sem ser algum dos que citei) que você acredite fazer sentido para o contexto após análise das citações, sempre mantendo o mais humano possível. Gere cada uma com um tamanho diferente, a primeira curta, a segunda média e a terceira próxima do limite de 120 caracteres. Não ultrapasse o limite de 120 em nenhuma delas e considere os espaços em branco entre as palavras na contagem de caracteres! As citações-síntese devem ser retornadas em um array JSON, com cada objeto contendo as propriedades \\\"text\\\" e \\\"mood\\\". Além disso, adicione uma propriedade \\\"tags\\\" contendo palavras-chave em inglês que possam ser usadas para buscar vídeos de fundo que remetam às citações. As tags devem ser palavras concretas como \\\"nature\\\", \\\"animals\\\", \\\"mountains\\\", \\\"sea\\\", \\\"fish\\\" e outras baseadas mas não limitadas a essas. e devem ser combinadas em uma string separadas apenas por espaço em branco. Adicione também uma propriedade \\\"hashtags\\\" que sejam 5 ou mais palavras otimizadas comumente usadas em vídeos de sucesso para que o vídeo tenha mais chances de ser visto nas mais variadas plataformas como tiktok, youtube shorts e instagram reels para um público brasileiro. Por fim, adicione uma propriedade \\\"description\\\" que será a descrição usada no vídeo. O resultado deve ser um json válido dessa forma: {\\\"body\\\": array com as 3 citações}.\\n\\nCitações:\\n\\n\\\"Nós não vemos o que vemos, nós vemos o que somos. Só veem as belezas do mundo, aqueles que têm belezas dentro de si.\\\"\\nRubem Alves\\n\\nSegundo Liebig, o corpo do homem é uma fornalha, e o alimento é o combustível que mantém a combustão interna nos pulmões.\\n\\nO que eu queria, e não posso, é por exemplo que tudo o que me viesse de bom de dentro de mim eu pudesse dar aquilo que eu pertencesse.\\n\\nNão sei selecionar as que mais me comoveram. Todas esquentaram meu coração, todas quiseram me dar a mão para me ajudar a subir mais e ver de algum modo a grande paisagem do mundo, todas me fizeram muito bem\\n\\nQuanto tempo você acha que a raça humana vai viver?\\n\\nProvavelmente a senhorita é jovem demais para saber que nossa vida é muito simples.\\n\\nQuem vê a beleza divina num cacho de vaga-lumes com certeza viu a glória de Deus.\\n\\nParasite por muito tempo e não será capaz de existir sem um hospedeiro.\\n\\nHow can the rest of us achieve such enviable freedom from clutter? The answer is to clear our heads of clutter. Clear thinking becomes clear writing; one can’t exist without the other.\\n\\nLet him lose himself in wonders as amazing in their littleness as the others in their vastness.\\n\\nSe você levar os sentimentos de seus filhos a sério e os reconfortar quando eles precisarem, aos poucos eles vão aprender a internalizar essa forma de se reconfortar e, com o tempo, vão se tornar capazes de fazer isso por conta própria.\\n\\nTudo mata de uma maneira ou de outra. Pescar mata-me tal como me faz viver.\\n\\n“What is the good of it? What is the good of doing anything, when the best part of my life is being wasted like this?” and to this question, tears were my only answer.\\n\\nSem a agonia do espírito, que é uma experiência sem palavras, não há significados em nenhum lugar.\\n\\nTo live an inspired life your mind must cultivate empowering thoughts through your beliefs, assumptions, agreements, words, feelings, choices, and actions.\",\n      \"temperature\": 1.3496901359259579,\n      \"id\": \"097eb978-8a8a-4f45-8f4f-af1e0f14ed3e\"\n    },\n    {\n      \"text\": \"Nossas belezas internas refletem nas belezas que vemos no mundo, e é preciso se reconfortar para viver plenamente\",\n      \"mood\": \"emocional\",\n      \"tags\": \"animals flowers heart\",\n      \"hashtags\": \"bemestar emocional crescimento pessoal amor proprio\",\n      \"description\": \"Conexão entre nossas belezas internas e o mundo ao nosso redor\"\n    },\n    {\n      \"text\": \"Para viver uma vida inspirada, é preciso cultivar pensamentos empoderadores através de crenças, palavras, sentimentos, escolhas e ações que nos levem a refletir sobre quem somos e como vivemos, buscando equilibrio entre corpo e espírito\",\n      \"mood\": \"inspirador\",\n      \"tags\": \"sunset ocean waves\",\n      \"hashtags\": \"inspiracao vida saudavel sucesso mindset crescimento pessoal\",\n      \"description\": \"Como cultivar uma vida inspirada e plena de significado\"\n    }\n  ]\n}"
+}
+Descrição para o vídeo:
+**Reflexão sobre a vida e como ela reflete quem somos**
+vida reflexo sucesso inspiracao crescimento
+🎵 Tempo di menuetto für Orchester by Arnold Wohler
+
+Musica:
+{
+  "id": "1428685",
+  "name": "Tempo di menuetto für Orchester",
+  "duration": 539,
+  "artist_id": "350374",
+  "artist_name": "Arnold Wohler",
+  "artist_idstr": "Amadeus_(4)",
+  "album_name": "Römische Sinfonie in 5 Sätzen",
+  "album_id": "166516",
+  "license_ccurl": "http://creativecommons.org/licenses/by-sa/3.0/",
+  "position": 2,
+  "releasedate": "2017-03-02",
+  "album_image": "https://usercontent.jamendo.com?type=album&id=166516&width=300&trackid=1428685",
+  "audio": "https://prod-1.storage.jamendo.com/?trackid=1428685&format=mp31&from=S9hSZFjwC4B7AtpZ63FVrQ%3D%3D%7Czr8QsaIMcQOROd%2BV5G8awg%3D%3D",
+  "audiodownload": "https://prod-1.storage.jamendo.com/download/track/1428685/mp32/",
+  "prourl": "https://licensing.jamendo.com/track/1428685",
+  "shorturl": "https://jamen.do/t/1428685",
+  "shareurl": "https://www.jamendo.com/track/1428685",
+  "waveform": "{\"peaks\":[0,3,15,13,16,17,14,17,15,12,12,19,22,26,20,15,14,15,16,12,13,12,11,7,14,13,16,15,19,17,14,16,15,15,14,14,14,11,11,12,11,11,14,16,17,18,19,7,7,10,12,11,12,13,12,11,9,11,12,10,12,9,7,8,8,8,7,6,5,4,2,2,10,22,32,28,13,4,2,1,2,4,4,3,3,2,3,3,4,3,2,2,2,2,1,1,10,5,5,9,6,5,10,10,10,11,10,12,10,11,7,6,8,5,6,10,9,8,12,15,11,13,14,17,13,13,16,19,16,11,11,13,14,16,18,19,19,14,9,5,5,9,10,11,13,14,14,13,13,12,11,11,13,14,17,28,33,42,34,52,57,46,35,37,35,42,61,42,35,35,40,44,56,57,40,32,38,35,40,42,30,40,39,46,51,54,50,40,41,36,22,17,18,21,22,19,18,18,14,10,7,6,5,5,6,6,5,8,8,6,10,9,10,11,11,16,18,20,25,23,26,28,34,34,29,23,26,23,21,20,17,17,16,12,10,12,11,10,6,7,9,8,11,11,14,15,9,9,16,14,16,17,18,25,23,21,22,14,16,18,10,5,7,7,6,14,30,24,29,32,36,42,29,28,27,27,21,22,31,32,34,30,28,28,29,41,35,34,34,31,29,30,40,65,44,46,61,43,52,52,42,46,52,50,44,49,49,53,69,71,42,61,54,42,46,47,56,56,50,49,49,41,54,50,50,46,35,46,53,58,57,54,35,54,41,32,58,50,44,45,41,37,30,34,30,35,40,37,36,41,48,48,50,59,29,34,36,48,51,43,21,25,31,29,27,30,34,26,26,38,49,46,39,43,49,55,52,49,40,27,41,31,26,32,35,56,72,79,30,14,13,15,17,19,26,28,27,25,25,24,23,21,18,21,22,21,19,29,25,29,34,31,41,44,40,31,35,25,32,24,38,40,48,41,49,53,49,43,39,35,35,39,35,36,54,47,44,53,39,35,58,42,52,79,91,49,54,50,42,42,37,40,45,47,39,37,38,53,57,54,42,36,42,44,49,46,39,29,39,39,38,49,45,39,41,37,32,35,36,37,32,35,36,35,34,37,42,45,40,26,28,25,31,34,40,26,26,26,26,31,24,29,38,44,42,40,42,45,52,34,31,28,31,37,47,55,41,20,18,21,17,19,22,28,26,25,25,22,24,21,21,27,25,23,13,15,20,20,20,19,24,28,28,25,22,21,17,15,21,16,15,28,28,28,28,27,24,21,16,16,17,19,23,24,27,32,28,22,23,28,27,29,45,28,33,32,39,38,39,34,34,31,33,30,37,36,32,38,37,49,46,41,29,18,19,24,28,34,25,27,22,25,25,25,31,26,23,27,23,22,21,22,21,20,26,21,18,19,18,20,18,15,15,18,16,15,13,15,12,14,15,15,15,16,17,14,15,14,20,13,15,14,14,15,10,20,28,24,20,21,23,18,21,23,26,43,28,30,31,30,33,35,36,38,26,27,26,25,22,21,25,29,26,27,27,30,28,36,31,25,21,18,15,13,9,6,7,16,15,15,20,19,19,18,18,13,12,11,16,26,29,35,39,40,52,50,55,50,46,58,48,47,50,47,45,45,42,34,36,45,42,37,38,31,34,30,26,33,41,48,49,40,50,53,52,41,48,37,31,31,25,20,19,16,23,31,47,40,33,38,38,34,44,31,25,29,68,100,98,85,71,71,70,62,66,64,57,45,58,53,38,39,32,35,35,32,32,31,29,28,27,29,30,27,20,16,20,39,39,45,47,48,45,42,46,41,36,34,35,37,40,34,31,29,42,46,42,47,46,36,34,32,30,28,28,21,17,26,40,43,47,60,39,34,36,29,30,27,23,21,21,21,18,18,16,19,17,15,16,16,17,19,20,15,16,17,17,17,15,16,16,17,16,16,15,16,16,17,14,16,14,15,15,15,14,16,18,16,18,16,16,17,17,15,15,15,17,14,12,14,11,11,7,11,13,14,13,14,14,26,24,27,24,18,16,16,14,13,26,30,26,16,14,11,10,7,4,5,6,7,6,3,2,6,8,8,7,8,7,6,6,7,6,6,5,1,24,35,16,17,29,16,8,5,3,1,4,4,2,2,4,5,6,5,5,5,4,4,4,2,0,0,0,0,0,0,0,0,0,0]}",
+  "image": "https://usercontent.jamendo.com?type=album&id=166516&width=300&trackid=1428685",
+  "audiodownload_allowed": true
+}

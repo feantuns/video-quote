@@ -125,7 +125,6 @@ Citações:
     console.log("Tempreature: ", temperature);
     console.log("Response: ", response);
 
-    return;
     const rl = readline.createInterface({ input, output });
 
     // PARA GERAR ÚNICO HIGHLIGHT

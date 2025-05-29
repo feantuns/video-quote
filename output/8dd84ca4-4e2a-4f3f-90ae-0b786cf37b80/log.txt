@@ -1,0 +1,87 @@
+
+Video:
+{
+  "id": 230899,
+  "pageURL": "https://pixabay.com/videos/id-230899/",
+  "type": "film",
+  "tags": "mountain, trees, forest, waterfall, nature, iran",
+  "duration": 30,
+  "videos": {
+    "large": {
+      "url": "https://cdn.pixabay.com/video/2024/09/11/230899_large.mp4",
+      "width": 3840,
+      "height": 2160,
+      "size": 168702993,
+      "thumbnail": "https://cdn.pixabay.com/video/2024/09/11/230899_large.jpg"
+    },
+    "medium": {
+      "url": "https://cdn.pixabay.com/video/2024/09/11/230899_medium.mp4",
+      "width": 2560,
+      "height": 1440,
+      "size": 67414502,
+      "thumbnail": "https://cdn.pixabay.com/video/2024/09/11/230899_medium.jpg"
+    },
+    "small": {
+      "url": "https://cdn.pixabay.com/video/2024/09/11/230899_small.mp4",
+      "width": 1920,
+      "height": 1080,
+      "size": 40669964,
+      "thumbnail": "https://cdn.pixabay.com/video/2024/09/11/230899_small.jpg"
+    },
+    "tiny": {
+      "url": "https://cdn.pixabay.com/video/2024/09/11/230899_tiny.mp4",
+      "width": 1280,
+      "height": 720,
+      "size": 13172592,
+      "thumbnail": "https://cdn.pixabay.com/video/2024/09/11/230899_tiny.jpg"
+    }
+  },
+  "views": 2119,
+  "downloads": 1060,
+  "likes": 34,
+  "comments": 2,
+  "user_id": 20243094,
+  "user": "Amirirani",
+  "userImageURL": "https://cdn.pixabay.com/user/2024/09/12/06-32-23-573_250x250.jpeg",
+  "noAiTraining": false
+}
+Quote:
+{
+  "text": "Viva o presente",
+  "mood": "filosófico",
+  "tags": "nature mountains",
+  "hashtags": "felicidade #motivação #sucesso #autoconhecimento #desenvolvimento pessoal",
+  "description": "Aprenda a viver o momento presente e encontre a verdadeira felicidade",
+  "prompt": "Crie citações-síntese a partir do conjunto das citações abaixo de forma que as sumarize em uma nova frase de até 120 caracteres. Gere 3 versões com tons diferentes (filosófico, emocional, poético, provocador etc.). 2 com algum dos tons de exemplo (escolhidos de forma aleatória) e 1 com um tom aleatório (sem ser algum dos que citei) que você acredite fazer sentido para o contexto após análise das citações, sempre mantendo o mais humano possível.Não ultrapasse o limite de 120 em nenhuma delas e considere os espaços em branco entre as palavras na contagem de caracteres! Dito isto, gere cada uma com um tamanho diferente, a primeira curta, a segunda média e a terceira só um pouquinho maior que a segunda. As citações-síntese devem ser retornadas em um array JSON, com cada objeto contendo as propriedades \"text\" e \"mood\". Além disso, adicione uma propriedade \"tags\" contendo palavras-chave em inglês que possam ser usadas para buscar vídeos de fundo que remetam às citações. As tags devem ser palavras concretas como \"nature\", \"animals\", \"mountains\", \"sea\", \"fish\" e outras baseadas mas não limitadas a essas. e devem ser combinadas em uma string separadas apenas por espaço em branco. Adicione também uma propriedade \"hashtags\" que sejam 5 ou mais palavras otimizadas comumente usadas em vídeos de sucesso para que o vídeo tenha mais chances de ser visto nas mais variadas plataformas como tiktok, youtube shorts e instagram reels para um público brasileiro. Por fim, adicione uma propriedade \"description\" que será a descrição usada no vídeo. O resultado deve ser um json válido dessa forma: {\"body\": array com as 3 citações}.\n\nCitações:\n\nA grande vileza, na atualidade, não acontece porque a cometemos, mas porque a permitimos. Ela cresce no vazio.\n\no que uma vez foi, nunca mais será da mesma maneira.\n\nPODEMOS DIZER QUE MUAD'DIB APRENDEU RÁPIDO PORQUE PRIMEIRO LHE ENSINARAM COMO APRENDER. E A PRIMEIRA LIÇÃO DE TODAS FOI DESENVOLVER A CONFIANÇA FUNDAMENTAL DE QUE ELE ERA CAPAZ DE APRENDER. É SURPREENDENTE SABER QUANTAS PESSOAS NÃO ACREDITAM SER CAPAZES DE APRENDER E QUANTAS OUTRAS CREEM QUE APRENDER É DIFÍCIL. MUAD'DIB SABIA QUE TODA EXPERIÊNCIA ERA UMA LIÇÃO.\n\nA maneira como lidamos com nossos sentimentos influencia como nossos filhos aprendem a lidar com os deles.\n\nand we urge all this upon the lads, pointing out to them that they will not grow up to honour if they are rebellious and take no pains about themselves; but that if they take pains they may, perhaps, become worthy of the names which they bear.\n\nThen the Scriptures tell us that ‘wine maketh glad the heart of man.’⁠ ⁠… If you feel happy and you want to feel better still, then go to the refreshment bar and have a drink.\n\nUm administrador ruim está mais preocupado com relatórios do que com decisões. Ele quer um relatório complicado, que possa servir como desculpa para seus erros.\n\nSome die on the first rungs of the ladder of success, others before they can reach the top, and the few that make it to the top of their ambition through a thousand indignities realize at the end it’s only for an inscription on their gravestone.”\n\nTendo seu porquê da vida, diz Nietzche, um indivíduo tolera quase todo como.\n\nEle sempre resistiu à tentação de escolher um trajeto claro e seguro, advertindo-nos: esse caminho leva sempre à estagnação\n\nReal life is found only in the present. If people tell you that you should live your life preparing for the future, do not believe them.\n\nWe can be good. Feel in your heart the kind of person you should be; this feeling will give you power.\n\nPrincípios são as coisas pelas quais você luta. A maioria dos homens passa a vida sem ser desafiados, exceto no momento final. Eles possuem pouquíssimas arenas hostis nas quais possam se testar.\n\nDizem que buscam segurança e quietude, condições que chamam de paz. Enquanto enunciam essas palavras, eles plantam as sementes do tumulto e da violência.\n\nThe magical key that unlocks the places you want to go?\n\nBeing happy and grateful in the place you are right now.",
+  "temperature": 1.1124565403077007,
+  "id": "8dd84ca4-4e2a-4f3f-90ae-0b786cf37b80",
+  "promptResponse": "{\n  \"body\": [\n    {\n      \"text\": \"Viva o presente\",\n      \"mood\": \"filosófico\",\n      \"tags\": \"nature mountains\",\n      \"hashtags\": \"felicidade #motivação #sucesso #autoconhecimento #desenvolvimento pessoal\",\n      \"description\": \"Aprenda a viver o momento presente e encontre a verdadeira felicidade\",\n      \"prompt\": \"Crie citações-síntese a partir do conjunto das citações abaixo de forma que as sumarize em uma nova frase de até 120 caracteres. Gere 3 versões com tons diferentes (filosófico, emocional, poético, provocador etc.). 2 com algum dos tons de exemplo (escolhidos de forma aleatória) e 1 com um tom aleatório (sem ser algum dos que citei) que você acredite fazer sentido para o contexto após análise das citações, sempre mantendo o mais humano possível.Não ultrapasse o limite de 120 em nenhuma delas e considere os espaços em branco entre as palavras na contagem de caracteres! Dito isto, gere cada uma com um tamanho diferente, a primeira curta, a segunda média e a terceira só um pouquinho maior que a segunda. As citações-síntese devem ser retornadas em um array JSON, com cada objeto contendo as propriedades \\\"text\\\" e \\\"mood\\\". Além disso, adicione uma propriedade \\\"tags\\\" contendo palavras-chave em inglês que possam ser usadas para buscar vídeos de fundo que remetam às citações. As tags devem ser palavras concretas como \\\"nature\\\", \\\"animals\\\", \\\"mountains\\\", \\\"sea\\\", \\\"fish\\\" e outras baseadas mas não limitadas a essas. e devem ser combinadas em uma string separadas apenas por espaço em branco. Adicione também uma propriedade \\\"hashtags\\\" que sejam 5 ou mais palavras otimizadas comumente usadas em vídeos de sucesso para que o vídeo tenha mais chances de ser visto nas mais variadas plataformas como tiktok, youtube shorts e instagram reels para um público brasileiro. Por fim, adicione uma propriedade \\\"description\\\" que será a descrição usada no vídeo. O resultado deve ser um json válido dessa forma: {\\\"body\\\": array com as 3 citações}.\\n\\nCitações:\\n\\nA grande vileza, na atualidade, não acontece porque a cometemos, mas porque a permitimos. Ela cresce no vazio.\\n\\no que uma vez foi, nunca mais será da mesma maneira.\\n\\nPODEMOS DIZER QUE MUAD'DIB APRENDEU RÁPIDO PORQUE PRIMEIRO LHE ENSINARAM COMO APRENDER. E A PRIMEIRA LIÇÃO DE TODAS FOI DESENVOLVER A CONFIANÇA FUNDAMENTAL DE QUE ELE ERA CAPAZ DE APRENDER. É SURPREENDENTE SABER QUANTAS PESSOAS NÃO ACREDITAM SER CAPAZES DE APRENDER E QUANTAS OUTRAS CREEM QUE APRENDER É DIFÍCIL. MUAD'DIB SABIA QUE TODA EXPERIÊNCIA ERA UMA LIÇÃO.\\n\\nA maneira como lidamos com nossos sentimentos influencia como nossos filhos aprendem a lidar com os deles.\\n\\nand we urge all this upon the lads, pointing out to them that they will not grow up to honour if they are rebellious and take no pains about themselves; but that if they take pains they may, perhaps, become worthy of the names which they bear.\\n\\nThen the Scriptures tell us that ‘wine maketh glad the heart of man.’⁠ ⁠… If you feel happy and you want to feel better still, then go to the refreshment bar and have a drink.\\n\\nUm administrador ruim está mais preocupado com relatórios do que com decisões. Ele quer um relatório complicado, que possa servir como desculpa para seus erros.\\n\\nSome die on the first rungs of the ladder of success, others before they can reach the top, and the few that make it to the top of their ambition through a thousand indignities realize at the end it’s only for an inscription on their gravestone.”\\n\\nTendo seu porquê da vida, diz Nietzche, um indivíduo tolera quase todo como.\\n\\nEle sempre resistiu à tentação de escolher um trajeto claro e seguro, advertindo-nos: esse caminho leva sempre à estagnação\\n\\nReal life is found only in the present. If people tell you that you should live your life preparing for the future, do not believe them.\\n\\nWe can be good. Feel in your heart the kind of person you should be; this feeling will give you power.\\n\\nPrincípios são as coisas pelas quais você luta. A maioria dos homens passa a vida sem ser desafiados, exceto no momento final. Eles possuem pouquíssimas arenas hostis nas quais possam se testar.\\n\\nDizem que buscam segurança e quietude, condições que chamam de paz. Enquanto enunciam essas palavras, eles plantam as sementes do tumulto e da violência.\\n\\nThe magical key that unlocks the places you want to go?\\n\\nBeing happy and grateful in the place you are right now.\",\n      \"temperature\": 1.1124565403077007,\n      \"id\": \"8dd84ca4-4e2a-4f3f-90ae-0b786cf37b80\"\n    },\n    {\n      \"text\": \"A vida é uma jornada de aprendizado e crescimento\",\n      \"mood\": \"emocional\",\n      \"tags\": \"sea waves ocean\",\n      \"hashtags\": \"aprendizado #desenvolvimento pessoal #sucesso #felicidade #motivação\",\n      \"description\": \"Descubra como cada experiência pode ser uma lição para você\"\n    },\n    {\n      \"text\": \"Seja fiel a si mesmo e encontre seu propósito\",\n      \"mood\": \"poético\",\n      \"tags\": \"animals forest trees\",\n      \"hashtags\": \"#autoconhecimento #sucesso #felicidade #desenvolvimento pessoal #motivação\",\n      \"description\": \"Encontre seu caminho e viva com propósito e significado\"\n    }\n  ]\n}"
+}
+Descrição para o vídeo:
+**Aprenda a viver o momento presente e encontre a verdadeira felicidade**
+felicidade #motivação #sucesso #autoconhecimento #desenvolvimento pessoal
+🎵 Anadante cantabile et Allegretto non troppo by Arnold Wohler
+
+Musica:
+{
+  "id": "1399056",
+  "name": "Anadante cantabile et Allegretto non troppo",
+  "duration": 592,
+  "artist_id": "350374",
+  "artist_name": "Arnold Wohler",
+  "artist_idstr": "Amadeus_(4)",
+  "album_name": "Quasi una fantasia (für Geige und Klavier)",
+  "album_id": "163775",
+  "license_ccurl": "http://creativecommons.org/licenses/by-sa/3.0/",
+  "position": 4,
+  "releasedate": "2016-12-04",
+  "album_image": "https://usercontent.jamendo.com?type=album&id=163775&width=300&trackid=1399056",
+  "audio": "https://prod-1.storage.jamendo.com/?trackid=1399056&format=mp31&from=8xDI8yr9eYZSSDBaUS%2FUFA%3D%3D%7CRfyg471b%2FgQjVeWRyetQvA%3D%3D",
+  "audiodownload": "https://prod-1.storage.jamendo.com/download/track/1399056/mp32/",
+  "prourl": "",
+  "shorturl": "https://jamen.do/t/1399056",
+  "shareurl": "https://www.jamendo.com/track/1399056",
+  "waveform": "{\"peaks\":[0,5,17,53,26,32,45,35,13,6,22,6,7,6,4,5,4,9,5,4,6,4,10,7,6,11,7,10,5,9,7,4,13,7,9,10,7,13,7,10,8,6,7,6,9,5,5,8,5,6,11,4,2,4,18,42,24,26,30,19,22,16,38,20,8,16,5,12,13,19,26,31,43,30,15,11,6,39,36,30,62,25,34,46,26,18,14,8,17,18,20,18,9,6,15,22,43,17,17,15,10,17,16,9,17,16,18,40,16,20,15,4,9,5,3,2,1,1,7,17,29,25,18,37,40,22,13,12,9,10,19,24,20,38,22,29,27,23,60,33,10,18,14,7,9,5,8,4,1,2,5,8,3,1,2,4,16,5,2,3,5,16,4,4,3,4,7,2,1,1,3,3,5,2,1,0,0,0,0,0,0,0,0,0,1,5,6,7,6,6,9,14,24,26,20,22,37,22,10,7,7,7,11,17,22,20,23,16,14,24,26,29,26,21,29,25,29,26,27,22,18,15,38,37,28,19,11,7,3,5,2,4,6,4,7,5,3,7,5,4,6,3,8,10,4,10,6,4,10,3,3,7,10,6,15,4,1,17,18,8,3,1,1,1,0,0,0,5,3,3,5,4,3,3,1,2,3,2,3,3,9,7,10,13,10,13,8,8,7,17,20,9,11,10,11,13,7,13,6,8,6,8,19,24,19,9,23,21,11,13,19,19,19,10,19,9,16,13,7,6,13,22,14,11,11,23,12,10,14,11,10,9,8,9,10,13,16,13,9,10,11,11,7,6,9,13,13,17,16,13,14,7,6,18,17,8,16,9,6,11,8,12,5,6,7,8,7,3,3,2,1,2,4,3,6,7,8,7,5,7,5,2,3,2,8,6,3,1,4,11,18,6,4,2,10,11,8,6,6,8,13,13,10,18,37,13,12,11,22,49,26,38,39,27,35,19,27,28,27,26,35,38,37,34,21,19,23,26,41,41,49,27,21,34,30,34,29,30,20,30,28,13,10,19,10,16,17,7,21,20,14,18,8,13,24,23,33,27,27,17,11,24,20,24,32,38,46,44,60,30,17,27,33,24,24,18,26,43,25,24,26,26,27,29,30,26,38,38,11,10,34,13,14,13,3,1,2,2,2,1,1,3,1,3,3,7,4,3,2,2,2,3,3,4,2,1,3,3,5,5,3,3,1,1,7,5,3,3,30,15,47,16,22,7,3,2,20,12,6,5,24,11,12,9,14,4,1,8,9,3,1,1,1,1,1,24,25,19,16,15,22,19,24,23,25,28,33,22,24,26,14,8,11,16,9,9,10,12,16,12,10,14,17,14,15,20,15,28,11,16,11,14,16,27,24,15,16,15,21,12,16,22,16,15,15,12,8,3,1,1,2,6,8,15,16,14,13,11,12,14,14,23,16,15,17,10,7,5,2,2,4,7,6,20,17,14,10,8,10,15,26,21,13,21,13,7,5,4,4,2,13,23,24,29,27,27,25,18,12,13,16,19,16,21,21,20,18,14,9,10,9,5,2,1,1,2,3,2,2,5,4,3,5,3,6,7,6,7,5,6,6,5,5,3,7,4,6,32,59,55,54,19,21,51,30,23,55,65,44,39,54,61,26,38,43,51,27,18,30,60,33,38,72,59,25,48,43,39,51,30,24,23,29,36,60,62,49,33,24,22,63,51,29,21,22,19,37,25,14,12,10,7,5,6,19,37,28,18,55,71,65,44,47,44,33,26,24,36,35,18,21,66,46,22,61,54,25,48,56,54,54,23,22,23,25,22,34,31,60,38,42,54,46,42,38,17,15,10,8,13,11,11,19,16,16,15,13,15,13,14,7,19,10,5,9,11,9,11,13,13,10,24,25,21,26,36,35,30,25,19,11,4,3,42,92,100,81,39,41,63,69,72,52,73,27,36,60,62,71,47,38,43,39,44,19,26,19,26,94,70,29,14,28,25,16,23,10,18,28,25,25,20,27,24,20,28,29,19,20,21,19,19,22,32,24,34,28,30,25,35,33,20,16,15,16,55,70,47,50,47,38,17,29,30,27,33,29,24,22,30,32,23,20,13,9,5,3,6,16,42,24,15,47,57,53,40,41,44,23,36,27,42,31,22,29,52,27,23,41,29,19,50,46,34,36,27,16,28,40,48,43,52,33,14,3,1,0,0,0,0]}",
+  "image": "https://usercontent.jamendo.com?type=album&id=163775&width=300&trackid=1399056",
+  "audiodownload_allowed": true
+}
