@@ -1,5 +1,8 @@
 import "dotenv/config";
+import { randomUUID } from "crypto";
+import { Groq } from "groq-sdk";
 import _sample from "lodash/sample.js";
+import _random from "lodash/random.js";
 import fs from "fs";
 import readline from "readline/promises";
 import { stdin as input, stdout as output } from "node:process";
@@ -20,6 +23,8 @@ import {
 
 const OUTPUT_DIR = process.env.OUTPUT_DIR;
 
+const maxChars = 120; // propositalmente diferente da env para teste
+
 // Ensure output directory exists
 if (!fs.existsSync(OUTPUT_DIR)) fs.mkdirSync(OUTPUT_DIR);
 
@@ -28,7 +33,7 @@ ffmpeg.setFfmpegPath(ffmpegPath);
 
 async function generateVideo(highlight) {
   try {
-    if (fs.existsSync(path.join(OUTPUT_DIR, `highlight-${highlight.id}`))) {
+    if (fs.existsSync(path.join(OUTPUT_DIR, highlight.id))) {
       console.log("Video already generated for highlight: ", highlight.id);
       return;
     }
@@ -79,40 +84,77 @@ async function generateVideo(highlight) {
   }
 }
 
+const PROMPT = `Crie citações-síntese a partir do conjunto das citações abaixo de forma que as sumarize em uma nova frase de até ${maxChars} caracteres. Gere 3 versões com tons diferentes (filosófico, emocional, poético, provocador etc.). 2 com algum dos tons de exemplo (escolhidos de forma aleatória) e 1 com um tom aleatório (sem ser algum dos que citei) que você acredite fazer sentido para o contexto após análise das citações, sempre mantendo o mais humano possível.Não ultrapasse o limite de ${maxChars} em nenhuma delas e considere os espaços em branco entre as palavras na contagem de caracteres! Dito isto, gere cada uma com um tamanho diferente, a primeira curta, a segunda média e a terceira só um pouquinho maior que a segunda. As citações-síntese devem ser retornadas em um array JSON, com cada objeto contendo as propriedades "text" e "mood". Além disso, adicione uma propriedade "tags" contendo palavras-chave em inglês que possam ser usadas para buscar vídeos de fundo que remetam às citações. As tags devem ser palavras concretas como "nature", "animals", "mountains", "sea", "fish" e outras baseadas mas não limitadas a essas. e devem ser combinadas em uma string separadas apenas por espaço em branco. Adicione também uma propriedade "hashtags" que sejam 5 ou mais palavras otimizadas comumente usadas em vídeos de sucesso para que o vídeo tenha mais chances de ser visto nas mais variadas plataformas como tiktok, youtube shorts e instagram reels para um público brasileiro. Por fim, adicione uma propriedade "description" que será a descrição usada no vídeo. O resultado deve ser um json válido dessa forma: {"body": array com as 3 citações}.
+
+Citações:
+
+`;
+
 (async () => {
   try {
     const highlights = await getHighlights();
 
-    console.log(highlights.map((h, i) => `${i} - ${h.text}`));
+    const highlightsText = highlights.map(h => h.text).join("\n\n");
 
-    const rl = readline.createInterface({ input, output });
+    const prompt = `${PROMPT}${highlightsText}`;
 
-    const index = await rl.question("Inform the desired highlight index: ");
-    let highlight = highlights[index];
+    const groq = new Groq({ apiKey: process.env.GROQ_API_KEY });
+    const temperature = _random(1, 2, true);
+    const chatCompletion = await groq.chat.completions.create({
+      messages: [
+        {
+          role: "user",
+          content: prompt,
+        },
+      ],
+      model: "meta-llama/llama-4-scout-17b-16e-instruct",
+      temperature,
+      max_completion_tokens: 1024,
+      top_p: 1,
+      stream: false,
+      response_format: {
+        type: "json_object",
+      },
+      stop: null,
+    });
 
-    if (!highlight) {
-      const highlightText = await rl.question("Inform the highlight text: ");
-      const highlightTitle = await rl.question(
-        "Inform the highlight title (name of the book): "
-      );
-      const highlightAuthor = await rl.question(
-        "Inform the highlight author: "
-      );
-      highlight = {
-        text: highlightText,
-        title: highlightTitle,
-        author: highlightAuthor,
-        id: Date.now(),
-      };
-    }
-
-    const videoSearchTerms = await rl.question(
-      "Inform the optional video search terms: "
+    let response = JSON.parse(
+      chatCompletion.choices[0]?.message?.content || "{}"
     );
 
-    highlight.searchTerms = videoSearchTerms;
+    console.log("Tempreature: ", temperature);
+    console.log("Response: ", response);
 
-    await generateVideo(highlight);
+    return;
+    const rl = readline.createInterface({ input, output });
+
+    // PARA GERAR ÚNICO HIGHLIGHT
+    // const index = await rl.question(
+    //   `Inform the desired response index (0 - ${response.body.length - 1}): `
+    // );
+    // let highlight = response.body[index];
+    // highlight.prompt = prompt;
+    // highlight.temperature = temperature;
+    // highlight.id = _uniqueId();
+
+    // await generateVideo(highlight);
+
+    const generatedHighlights = [];
+
+    // PARA GERAR TODOS OS HIGHLIGHTS
+    for (const highlight of response.body) {
+      highlight.prompt = prompt;
+      highlight.temperature = temperature;
+      highlight.id = randomUUID();
+      highlight.promptResponse = JSON.stringify(response, null, 2);
+      await generateVideo(highlight);
+      generatedHighlights.push(highlight);
+    }
+
+    console.log(
+      "Generated highlights: ",
+      generatedHighlights.map(h => h.id)
+    );
 
     rl.close();
   } catch (error) {

@@ -26,14 +26,12 @@ export async function getHighlights() {
 export function getHighlightText(highlight) {
   let text = highlight.text.replace(/\n/g, " ");
 
-  const description = `**${highlight.title}** by ${highlight.author}\n${
-    text.length > maxChars ? text : ""
-  }`;
+  const description = `**${highlight.description}**\n${highlight.hashtags}\n`;
 
   text = text.length > maxChars ? `${text.slice(0, maxChars)}...` : text;
 
   fs.appendFile(
-    `${OUTPUT_DIR}/highlight-${highlight.id}/log.txt`,
+    `${OUTPUT_DIR}/${highlight.id}/log.txt`,
     `\nQuote:\n${JSON.stringify(
       highlight,
       null,
@@ -100,7 +98,7 @@ export async function addTextToVideo({
 }) {
   const outputPath = path.join(
     OUTPUT_DIR,
-    `highlight-${highlight.id}`,
+    `${highlight.id}`,
     "video-with-text.mp4"
   );
 

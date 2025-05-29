@@ -9,7 +9,7 @@ import { sanitizeString } from "./sanitizestring.mjs";
 
 const JAMENDO_CLIENT_ID = process.env.JAMENDO_CLIENT_ID; // You'll need to register and get a client ID
 const JAMENDO_API_URL = "https://api.jamendo.com/v3.0/tracks";
-const JAMENDO_MUSIC_TAGS = ["classical", "jazz"];
+const JAMENDO_MUSIC_TAGS = ["classical"];
 
 const OUTPUT_DIR = process.env.OUTPUT_DIR;
 
@@ -41,15 +41,11 @@ export async function downloadMusic({ track, highlight }) {
     });
 
     const fileName = `${sanitizeString(track.name)}.mp3`;
-    const musicFilePath = path.join(
-      OUTPUT_DIR,
-      `highlight-${highlight.id}`,
-      fileName
-    );
+    const musicFilePath = path.join(OUTPUT_DIR, highlight.id, fileName);
     const fileStream = fs.createWriteStream(musicFilePath);
 
     fs.appendFile(
-      `${OUTPUT_DIR}/highlight-${highlight.id}/log.txt`,
+      `${OUTPUT_DIR}/${highlight.id}/log.txt`,
       `🎵 ${track.name} by ${track.artist_name}\n\nMusica:\n${JSON.stringify(
         track,
         null,
@@ -82,7 +78,7 @@ export async function addMusicToVideo({
 }) {
   const outputPath = path.join(
     OUTPUT_DIR,
-    `highlight-${highlight.id}`,
+    `${highlight.id}`,
     "video-with-sound.mp4"
   );
 

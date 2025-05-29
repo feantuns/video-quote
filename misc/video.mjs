@@ -34,7 +34,7 @@ const OUTPUT_DIR = process.env.OUTPUT_DIR;
 
 export async function fetchVideoFromPixabay(highlight) {
   const apiUrl = `${PIXABAY_API_URL}?key=${PIXABAY_API_KEY}&q=${
-    highlight?.searchTerms || _sample(PIXABAY_SEARCH_TERMS)
+    highlight?.tags || _sample(PIXABAY_SEARCH_TERMS)
   }&per_page=200&min_width=1080&min_height=1920`;
   console.log("Fetching video by: ", apiUrl);
   const response = await fetch(apiUrl);
@@ -70,7 +70,7 @@ export async function fetchVideoFromPixabay(highlight) {
   // Get the video file URL
   const videoUrl = video.videos.medium.url;
 
-  const videoDirectory = `${OUTPUT_DIR}/highlight-${highlight.id}`;
+  const videoDirectory = `${OUTPUT_DIR}/${highlight.id}`;
 
   // Create new directory
   // recursive true não dá erro se o diretório já existir
@@ -88,11 +88,7 @@ export async function fetchVideoFromPixabay(highlight) {
   );
 
   // Download the video
-  const videoFilePath = path.join(
-    OUTPUT_DIR,
-    `highlight-${highlight.id}`,
-    "video.mp4"
-  );
+  const videoFilePath = path.join(OUTPUT_DIR, highlight.id, "video.mp4");
   const res = await fetch(videoUrl);
   const fileStream = fs.createWriteStream(videoFilePath);
   await new Promise((resolve, reject) => {
