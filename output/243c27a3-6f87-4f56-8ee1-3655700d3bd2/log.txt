@@ -1,0 +1,86 @@
+
+Video:
+{
+  "id": 213814,
+  "pageURL": "https://pixabay.com/videos/id-213814/",
+  "type": "animation",
+  "tags": "spaceship, universe, science fiction, sea, landscape, sunset",
+  "duration": 33,
+  "videos": {
+    "large": {
+      "url": "https://cdn.pixabay.com/video/2024/05/26/213814_large.mp4",
+      "width": 3840,
+      "height": 2160,
+      "size": 44623699,
+      "thumbnail": "https://cdn.pixabay.com/video/2024/05/26/213814_large.jpg"
+    },
+    "medium": {
+      "url": "https://cdn.pixabay.com/video/2024/05/26/213814_medium.mp4",
+      "width": 2560,
+      "height": 1440,
+      "size": 23581446,
+      "thumbnail": "https://cdn.pixabay.com/video/2024/05/26/213814_medium.jpg"
+    },
+    "small": {
+      "url": "https://cdn.pixabay.com/video/2024/05/26/213814_small.mp4",
+      "width": 1920,
+      "height": 1080,
+      "size": 14582651,
+      "thumbnail": "https://cdn.pixabay.com/video/2024/05/26/213814_small.jpg"
+    },
+    "tiny": {
+      "url": "https://cdn.pixabay.com/video/2024/05/26/213814_tiny.mp4",
+      "width": 1280,
+      "height": 720,
+      "size": 4979225,
+      "thumbnail": "https://cdn.pixabay.com/video/2024/05/26/213814_tiny.jpg"
+    }
+  },
+  "views": 28683,
+  "downloads": 5130,
+  "likes": 126,
+  "comments": 9,
+  "user_id": 9188734,
+  "user": "AdisResic",
+  "userImageURL": "https://cdn.pixabay.com/user/2023/10/25/10-00-03-615_250x250.png",
+  "noAiTraining": false
+}
+Quote:
+{
+  "text": "A vida é movimento e aprendizado.",
+  "mood": "filosófico",
+  "tags": "nature mountains sea",
+  "hashtags": " #sucesso #motivação #aprendizado #desenvolvimento",
+  "description": "Descubra o segredo para uma vida plena e feliz",
+  "prompt": "Crie citações-síntese a partir do conjunto das citações abaixo de forma que as sumarize em uma nova frase de até 120 caracteres. Gere 3 versões com tons diferentes (filosófico, emocional, poético, provocador etc.). 2 com algum dos tons de exemplo (escolhidos de forma aleatória) e 1 com um tom aleatório (sem ser algum dos que citei) que você acredite fazer sentido para o contexto após análise das citações, sempre mantendo o mais humano possível.Não ultrapasse o limite de 120 em nenhuma delas e considere os espaços em branco entre as palavras na contagem de caracteres! Dito isto, gere cada uma com um tamanho diferente, a primeira curta, a segunda média e a terceira só um pouquinho maior que a segunda. As citações-síntese devem ser retornadas em um array JSON, com cada objeto contendo as propriedades \"text\" e \"mood\". Além disso, adicione uma propriedade \"tags\" contendo palavras-chave em inglês que possam ser usadas para buscar vídeos de fundo que remetam às citações. As tags devem ser palavras concretas como \"nature\", \"animals\", \"mountains\", \"sea\", \"fish\" e outras baseadas mas não limitadas a essas. e devem ser combinadas em uma string separadas apenas por espaço em branco. Adicione também uma propriedade \"hashtags\" que sejam 5 ou mais palavras otimizadas comumente usadas em vídeos de sucesso para que o vídeo tenha mais chances de ser visto nas mais variadas plataformas como tiktok, youtube shorts e instagram reels para um público brasileiro. Por fim, adicione uma propriedade \"description\" que será a descrição usada no vídeo. O resultado deve ser um json válido dessa forma: {\"body\": array com as 3 citações}.\n\nCitações:\n\nTudo permanece em movimento no deserto ou perece.\n\nPODEMOS DIZER QUE MUAD'DIB APRENDEU RÁPIDO PORQUE PRIMEIRO LHE ENSINARAM COMO APRENDER. E A PRIMEIRA LIÇÃO DE TODAS FOI DESENVOLVER A CONFIANÇA FUNDAMENTAL DE QUE ELE ERA CAPAZ DE APRENDER. É SURPREENDENTE SABER QUANTAS PESSOAS NÃO ACREDITAM SER CAPAZES DE APRENDER E QUANTAS OUTRAS CREEM QUE APRENDER É DIFÍCIL. MUAD'DIB SABIA QUE TODA EXPERIÊNCIA ERA UMA LIÇÃO.\n\nThe only real life is one lived close to God. This does not happen by itself; you must make an effort to make this happen, and this effort will bring you joy.\n\nIf thou wert good and pure within, then wouldst thou look upon all things without hurt and understand them aright.\n\nPorque você é humano, e humanos possuem um desejo profundo de classificar, de rotular tudo.\n\nAliás, como é possível evitar o que não se sabe que acontecerá? 8 Ninguém pode impedir o próprio espírito de partir.35 Ninguém é capaz de evitar o dia de sua morte; não há como fugir dessa batalha. E, diante da morte, a maldade certamente não livrará o perverso.\n\nLearn to love cooking. People who love cooking eat much healthier and cheaper over their lifespan.\n\nUse your skill to make his will supple and pliant to reason: teach him to love credit and commendation; to abhor being thought ill or meanly of, especially by you and his mother, and then the rest will come all easily.\n\nLesson: Don’t run out of money. It will make you a bad freelance consultant. You’ll take gigs that don’t fit, and say yes instead of giving advice.\n\nPv 20.1. O vinho produz zombadores; o álcool leva a brigas; quem é dominado pela bebida não é sábio.\n\nO verdadeiro trabalho de criar os filhos não é a arrumação, é estar presente ao lado deles e ajudá-los a se desenvolver. O método colaborativo ajuda a desenvolver as habilidades sociais para o comportamento socializado, que são: tolerância à frustração, flexibilidade, habilidades de resolução de problemas e empatia.\n\nSabemos que a lei é boa quando usada corretamente. 9 Pois a lei não foi criada para os que fazem o que é certo, mas para os transgressores e rebeldes, para os irreverentes e pecadores, para os ímpios e profanos.\n\nIf you *really* want to have an impact, I think there’s a specific category of advice, one that people are particularly interested in and particularly likely to follow: Advice about ways to spend money.\n\nMourão, Mourão, toma este dente mau, me dá um dente são!...\n\nReasonable–that is, human–men will always be capable of compromise, but men who have dehumanized themselves by becoming the blind worshipers of an idea or an ideal are fanatics whose devotion to abstractions makes them the enemies of life.",
+  "temperature": 1.626357364390946,
+  "id": "243c27a3-6f87-4f56-8ee1-3655700d3bd2"
+}
+Descrição para o vídeo:
+**Descubra o segredo para uma vida plena e feliz**
+ #sucesso #motivação #aprendizado #desenvolvimento
+🎵 Beneath a Canopy of Stars, Op 70 by Edward Schaffer
+
+Musica:
+{
+  "id": "1242815",
+  "name": "Beneath a Canopy of Stars, Op 70",
+  "duration": 304,
+  "artist_id": "368701",
+  "artist_name": "Edward Schaffer",
+  "artist_idstr": "Edward_Schaffer",
+  "album_name": "Tone Poem Project #2",
+  "album_id": "148824",
+  "license_ccurl": "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+  "position": 1,
+  "releasedate": "2015-06-22",
+  "album_image": "https://usercontent.jamendo.com?type=album&id=148824&width=300&trackid=1242815",
+  "audio": "https://prod-1.storage.jamendo.com/?trackid=1242815&format=mp31&from=TtynMe1mjlFKzYjplD5lwg%3D%3D%7C91B3svO8UlhBBBclcxLASA%3D%3D",
+  "audiodownload": "https://prod-1.storage.jamendo.com/download/track/1242815/mp32/",
+  "prourl": "",
+  "shorturl": "https://jamen.do/t/1242815",
+  "shareurl": "https://www.jamendo.com/track/1242815",
+  "waveform": "{\"peaks\":[0,0,0,0,0,0,0,2,3,4,3,3,4,4,4,5,7,9,9,9,8,10,9,9,9,9,9,8,7,8,8,9,9,8,7,9,11,12,10,9,9,9,10,9,9,10,9,8,8,7,8,9,9,10,9,8,11,12,11,11,9,9,9,6,9,11,9,8,10,10,8,7,9,9,8,7,6,5,3,4,3,5,8,9,9,7,7,7,8,6,6,6,6,6,4,4,4,4,2,4,11,37,45,45,42,45,50,41,37,47,51,62,77,68,38,40,33,38,44,39,29,26,27,21,25,24,24,26,24,28,43,48,48,46,46,32,52,37,25,29,30,28,25,23,21,18,9,4,2,2,5,43,49,43,46,50,42,42,46,42,53,70,63,31,38,36,40,45,43,32,27,32,28,24,27,29,30,29,30,26,31,36,37,37,36,31,30,35,32,37,42,52,53,43,41,49,50,48,43,37,33,32,19,3,9,63,74,45,74,56,76,90,87,70,42,38,42,57,82,53,76,69,51,66,69,66,26,50,42,37,48,40,47,46,34,48,46,36,26,31,53,50,52,54,50,49,49,48,44,41,37,32,19,63,68,49,76,50,70,78,78,79,42,36,34,61,76,46,74,55,51,59,60,60,52,55,38,35,40,40,41,41,37,40,40,40,41,34,40,37,67,73,71,66,66,64,56,39,9,6,6,34,45,40,42,46,43,34,41,44,57,74,65,40,45,40,39,46,49,40,30,32,32,25,27,28,32,36,34,37,34,33,30,31,30,24,11,20,33,30,30,34,31,31,29,21,28,30,29,29,32,31,32,33,33,33,33,33,29,22,18,17,13,8,7,8,8,8,10,12,10,9,15,16,18,16,16,14,13,12,14,12,13,10,9,5,4,3,13,28,32,36,36,41,39,39,40,45,42,35,34,38,30,33,40,35,32,35,34,34,34,35,37,36,35,36,38,38,37,36,37,32,23,24,25,25,23,22,19,13,7,3,1,0,23,31,31,35,37,31,31,36,42,40,38,32,34,35,31,35,36,24,23,24,22,25,25,26,26,25,25,28,31,33,35,37,35,27,25,29,30,32,33,36,42,41,33,37,45,45,45,45,45,41,34,22,4,9,39,36,36,31,35,39,47,46,44,34,33,31,41,48,37,42,47,52,50,44,38,45,61,45,47,45,45,45,29,38,41,41,33,45,48,43,46,49,48,46,45,40,33,15,8,20,38,32,33,36,42,51,44,33,31,40,36,41,39,36,47,45,54,47,38,32,48,46,42,46,39,37,41,37,40,41,38,39,45,31,38,38,36,34,36,38,42,30,8,8,16,27,26,32,34,35,39,40,39,39,28,29,25,34,33,35,36,30,24,30,28,26,29,28,29,29,23,23,29,27,24,27,27,14,21,30,29,30,27,22,22,19,20,27,31,29,32,33,35,35,33,34,28,13,9,12,11,13,13,11,9,12,15,14,13,11,9,9,9,9,10,9,8,7,5,5,5,4,6,7,8,21,76,80,65,72,75,86,58,65,54,52,61,55,47,58,54,50,72,73,62,46,49,54,39,49,55,46,53,60,62,58,45,60,88,80,53,55,78,40,38,42,42,41,41,34,30,26,16,11,8,8,3,15,24,24,29,27,30,35,32,30,33,42,44,39,31,33,27,26,31,33,28,23,25,23,23,30,27,28,29,31,30,29,29,29,30,30,30,27,24,24,26,34,39,43,39,35,37,40,36,37,36,35,36,34,28,15,11,11,7,5,27,67,65,52,66,54,64,71,74,73,57,52,51,58,66,62,61,73,63,92,97,98,100,69,51,52,53,76,67,68,84,48,58,62,63,59,41,61,60,63,84,75,79,85,84,79,92,81,89,91,81,70,82,56,79,71,60,70,79,67,70,41,51,55,71,83,53,82,64,77,88,90,82,96,45,46,51,46,52,51,49,53,58,67,68,70,67,65,60,69,49,56,57,59,65,62,64,35,5,3,4,67,82,71,65,78,80,65,62,65,56,56,63,62,46,60,57,61,75,79,69,57,57,51,45,55,53,51,59,51,52,56,52,57,54,59,61,57,46,13,44,52,60,57,58,58,58,58,38,54,53,52,46,59,57,61,60,63,64,67,68,71,72,71,67,72,78,60,54,41,38,35,35,34,31,29,26,22,19,14,9,1,0,0,0,0,0,0,0,0]}",
+  "image": "https://usercontent.jamendo.com?type=album&id=148824&width=300&trackid=1242815",
+  "audiodownload_allowed": true
+}

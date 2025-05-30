@@ -128,32 +128,32 @@ Citações:
     const rl = readline.createInterface({ input, output });
 
     // PARA GERAR ÚNICO HIGHLIGHT
-    // const index = await rl.question(
-    //   `Inform the desired response index (0 - ${response.body.length - 1}): `
-    // );
-    // let highlight = response.body[index];
-    // highlight.prompt = prompt;
-    // highlight.temperature = temperature;
-    // highlight.id = _uniqueId();
-
-    // await generateVideo(highlight);
-
-    const generatedHighlights = [];
-
-    // PARA GERAR TODOS OS HIGHLIGHTS
-    for (const highlight of response.body) {
-      highlight.prompt = prompt;
-      highlight.temperature = temperature;
-      highlight.id = randomUUID();
-      highlight.promptResponse = JSON.stringify(response, null, 2);
-      await generateVideo(highlight);
-      generatedHighlights.push(highlight);
-    }
-
-    console.log(
-      "Generated highlights: ",
-      generatedHighlights.map(h => h.id)
+    const index = await rl.question(
+      `Inform the desired response index (0 - ${response.body.length - 1}): `
     );
+    let highlight = response.body[index];
+    highlight.prompt = prompt;
+    highlight.temperature = temperature;
+    highlight.id = randomUUID();
+
+    await generateVideo(highlight);
+
+    // const generatedHighlights = [];
+
+    // // PARA GERAR TODOS OS HIGHLIGHTS
+    // for (const highlight of response.body) {
+    //   highlight.prompt = prompt;
+    //   highlight.temperature = temperature;
+    //   highlight.id = randomUUID();
+    //   highlight.promptResponse = JSON.stringify(response, null, 2);
+    //   await generateVideo(highlight);
+    //   generatedHighlights.push(highlight);
+    // }
+
+    // console.log(
+    //   "Generated highlights: ",
+    //   generatedHighlights.map(h => h.id)
+    // );
 
     rl.close();
   } catch (error) {
