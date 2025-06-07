@@ -1,0 +1,86 @@
+
+Video:
+{
+  "id": 64113,
+  "pageURL": "https://pixabay.com/videos/id-64113/",
+  "type": "film",
+  "tags": "mountains, waterfalls, dolomiti, dolomite, alpi, waves, lake, river, torrent, nature, panorama, landscape, national park, sunset, sunrise, sun, clouds, wind, sky, forest, woods, plant",
+  "duration": 28,
+  "videos": {
+    "large": {
+      "url": "https://cdn.pixabay.com/video/2021/02/04/64113-509542813_large.mp4",
+      "width": 3840,
+      "height": 2160,
+      "size": 86837676,
+      "thumbnail": "https://cdn.pixabay.com/video/2021/02/04/64113-509542813_large.jpg"
+    },
+    "medium": {
+      "url": "https://cdn.pixabay.com/video/2021/02/04/64113-509542813_medium.mp4",
+      "width": 2560,
+      "height": 1440,
+      "size": 47562232,
+      "thumbnail": "https://cdn.pixabay.com/video/2021/02/04/64113-509542813_medium.jpg"
+    },
+    "small": {
+      "url": "https://cdn.pixabay.com/video/2021/02/04/64113-509542813_small.mp4",
+      "width": 1920,
+      "height": 1080,
+      "size": 20464688,
+      "thumbnail": "https://cdn.pixabay.com/video/2021/02/04/64113-509542813_small.jpg"
+    },
+    "tiny": {
+      "url": "https://cdn.pixabay.com/video/2021/02/04/64113-509542813_tiny.mp4",
+      "width": 1280,
+      "height": 720,
+      "size": 10813916,
+      "thumbnail": "https://cdn.pixabay.com/video/2021/02/04/64113-509542813_tiny.jpg"
+    }
+  },
+  "views": 7257,
+  "downloads": 2939,
+  "likes": 69,
+  "comments": 3,
+  "user_id": 12967658,
+  "user": "Ambient_Nature_Atmosphere",
+  "userImageURL": "https://cdn.pixabay.com/user/2019/09/12/10-50-15-943_250x250.jpg",
+  "noAiTraining": false
+}
+Quote:
+{
+  "text": "Nossas ações e pensamentos definem quem somos e como vivemos, é hora de mudar.",
+  "mood": "emocional",
+  "tags": "animals forest sunset",
+  "hashtags": "sucesso autoestima mudançavida educação emocional",
+  "description": "Descubra como pequenas ações podem mudar sua vida e do mundo ao seu redor.",
+  "prompt": "Crie citações-síntese a partir do conjunto das citações abaixo de forma que as sumarize em uma nova frase de até 120 caracteres. Gere 3 versões com tons diferentes (filosófico, emocional, poético, provocador etc.). 2 com algum dos tons de exemplo (escolhidos de forma aleatória) e 1 com um tom aleatório (sem ser algum dos que citei) que você acredite fazer sentido para o contexto após análise das citações, sempre mantendo o mais humano possível.Não ultrapasse o limite de 120 em nenhuma delas e considere os espaços em branco entre as palavras na contagem de caracteres! Dito isto, gere cada uma com um tamanho diferente, a primeira curta, a segunda média e a terceira só um pouquinho maior que a segunda. As citações-síntese devem ser retornadas em um array JSON, com cada objeto contendo as propriedades \"text\" e \"mood\". Além disso, adicione uma propriedade \"tags\" contendo palavras-chave em inglês que possam ser usadas para buscar vídeos de fundo que remetam às citações. As tags devem ser palavras concretas como \"nature\", \"animals\", \"mountains\", \"sea\", \"fish\" e outras baseadas mas não limitadas a essas. e devem ser combinadas em uma string separadas apenas por espaço em branco. Adicione também uma propriedade \"hashtags\" que sejam 5 ou mais palavras otimizadas comumente usadas em vídeos de sucesso para que o vídeo tenha mais chances de ser visto nas mais variadas plataformas como tiktok, youtube shorts e instagram reels para um público brasileiro. Por fim, adicione uma propriedade \"description\" que será a descrição usada no vídeo. O resultado deve ser um json válido dessa forma: {\"body\": array com as 3 citações}.\n\nCitações:\n\nFilhinhos, não nos limitemos a dizer que amamos uns aos outros; demonstremos a verdade por meio de nossas ações.\n\nThe most important sentence in any article is the first one. If it doesn’t induce the reader to proceed to the second sentence, your article is dead.\n\nI have always had a fancy that learning might be made a play and recreation to children: and that they might be brought to desire to be taught,\n\naquele parecia ser um desses momentos por amor aos quais Deus criou o mundo.\n\né como se tivéssemos dois destinos: um ágil e desimportante que se cumpre, outro imóvel e importante que jamais descobrimos.\n\nQuem eleva sua mente e, preenchido de fé e de amor, pensa em mim, o onisciente, o ancestral dos ancestrais, o infinitamente pequeno e o colosso dos colossos, aquele que sustenta todas as leis naturais, o inefável, o inconcebível, a luz de si mesmo, aquele que a tudo abarca e transcende, quem fecha os olhos materiais e me vê, face a face, com a visão espiritual, este deixa de sobreviver, e inicia a verdadeira vida!\n\nDeve-se apreciar a vida antes de querer preservá-la\n\nI hope these selections ignite in you the understanding that drove him: that everything that makes up what we call life was made by people no smarter, no more capable, than we are; that our world is not fixed—and so we can change it for the better.\n\nThose who can raise their thoughts to heaven will always have clear days, because the sun always shines above the clouds.\n\nEla havia entrado no vácuo atemporal da corrida em que nada existia além de seus próprios movimentos, seu próprio corpo fazendo o que havia sido condicionado a fazer.\n\nHe has power who can keep silent in an argument, even though he is right.\n\nA escrita da história é em grande parte um processo de distração. A maioria dos relatos históricos distrai a atenção das influências secretas que cercam os eventos registrados.\n\nCada espécie de homens tem suas características, seus aspectos, seus vícios e suas virtudes, e seus pecados mortais.\n\nIt is not that we have a short time to live, but that we waste a lot of it. Life is long enough, and a sufficiently generous amount has been given to us for the highest achievements if it were all well invested.",
+  "temperature": 1.8541841108376953,
+  "id": "c42f4678-bc1c-4627-9f95-9474e04a331c"
+}
+Descrição para o vídeo:
+**Descubra como pequenas ações podem mudar sua vida e do mundo ao seu redor.**
+sucesso autoestima mudançavida educação emocional
+🎵 Solemn Prelude, Op 80 by Edward Schaffer
+
+Musica:
+{
+  "id": "1244308",
+  "name": "Solemn Prelude, Op 80",
+  "duration": 98,
+  "artist_id": "368701",
+  "artist_name": "Edward Schaffer",
+  "artist_idstr": "Edward_Schaffer",
+  "album_name": "Tone Poem Project #8",
+  "album_id": "148985",
+  "license_ccurl": "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+  "position": 9,
+  "releasedate": "2015-06-27",
+  "album_image": "https://usercontent.jamendo.com?type=album&id=148985&width=300&trackid=1244308",
+  "audio": "https://prod-1.storage.jamendo.com/?trackid=1244308&format=mp31&from=4ITfiEwkM9%2Btv%2BS%2F8TtAjg%3D%3D%7CgvB%2B8fMzQW46jMc430mq8g%3D%3D",
+  "audiodownload": "https://prod-1.storage.jamendo.com/download/track/1244308/mp32/",
+  "prourl": "",
+  "shorturl": "https://jamen.do/t/1244308",
+  "shareurl": "https://www.jamendo.com/track/1244308",
+  "waveform": "{\"peaks\":[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,37,60,65,58,53,52,54,47,56,52,46,59,43,36,48,45,59,65,61,52,35,50,86,83,70,49,41,40,45,44,58,49,56,48,38,42,44,45,45,32,49,43,47,67,81,77,93,60,49,56,61,53,58,52,76,66,61,58,62,58,54,55,54,54,44,75,79,68,60,53,51,54,46,57,52,44,35,39,30,29,27,27,25,21,23,22,45,76,64,58,61,55,57,61,50,53,50,51,64,40,63,48,48,69,58,36,49,41,69,76,58,69,55,62,55,53,58,55,42,58,48,39,48,42,57,55,37,34,38,43,75,79,69,58,49,55,41,55,47,46,53,73,78,69,55,56,51,55,43,51,52,55,83,73,63,56,56,51,55,46,59,47,41,36,36,29,28,28,26,23,22,21,18,46,66,63,37,38,28,39,34,44,45,33,47,36,28,45,34,46,63,59,54,35,36,72,77,70,47,42,39,44,37,53,44,52,70,51,50,56,42,49,45,45,53,52,52,65,46,72,55,56,54,65,47,43,45,64,55,49,59,41,44,63,48,49,46,46,55,59,70,97,67,51,49,49,56,47,37,49,59,57,45,40,37,30,31,31,29,44,64,48,42,57,49,58,50,55,43,46,53,75,62,63,58,59,59,55,46,58,56,61,70,60,51,49,57,53,54,40,47,46,59,63,56,55,48,49,68,56,49,52,46,65,67,67,47,46,42,47,37,47,49,36,69,81,68,58,50,54,41,54,48,45,55,77,80,69,62,55,51,54,45,58,51,44,34,39,30,29,27,27,25,21,24,21,42,72,72,50,52,49,78,76,70,82,47,62,64,69,62,56,60,63,59,61,45,40,60,62,48,65,54,59,86,82,62,55,51,75,69,66,47,52,44,40,39,34,47,43,75,70,73,56,49,49,59,51,64,50,58,74,73,74,56,44,37,38,47,43,50,54,41,35,34,38,32,40,41,35,44,36,37,31,44,37,33,25,17,13,6,4,10,52,62,62,55,56,59,68,56,55,58,47,60,71,61,67,47,63,59,55,49,45,56,65,68,75,55,42,58,72,71,60,55,53,77,71,52,49,48,55,73,58,53,44,59,55,55,56,53,54,63,49,51,50,55,73,86,76,72,59,51,63,47,71,53,47,44,47,38,29,33,37,55,45,51,40,49,46,48,36,35,36,25,15,9,6,4,23,69,71,54,59,53,58,75,50,91,63,56,69,64,70,50,45,56,46,50,53,40,49,67,44,63,53,53,73,79,57,49,51,60,69,71,58,47,43,44,46,37,51,42,59,68,69,51,38,44,66,59,48,36,38,75,77,69,59,54,52,54,48,55,54,50,62,53,60,53,60,52,42,40,51,44,61,83,69,58,53,47,43,49,40,56,41,34,30,36,26,25,26,47,46,47,34,30,37,27,32,27,29,38,26,22,13,10,11,53,72,63,56,43,54,66,69,55,42,37,60,49,39,58,44,59,52,52,42,45,39,76,70,70,84,53,44,36,39,45,44,57,86,75,66,53,55,52,54,46,60,48,41,35,38,29,28,27,27,23,21,23,22,32,26,28,22,24,18,17,17,14,12,14,52,59,55,39,37,27,39,26,45,41,34,69,69,57,61,52,67,77,81,71,37,49,82,84,76,52,44,38,45,43,55,50,51,50,41,37,47,43,49,32,43,48,44,55,87,74,94,65,49,55,60,55,56,51,72,69,60,61,59,62,52,57,52,56,43,66,73,70,100,57,60,70,65,50,52,59,46,36,32,40,47,43,31,31,33,33,35,69,62,64,59,60,48,54,58,40,43,53,74,57,81,63,41,67,68,62,61,66,74,71,90,61,52,48,44,39,41,44,40,63,70,51,74,51,45,70,70,67,53,64,74,72,69,47,54,48,47,37,52,49,39,30,35,29,29,27,22,17,17,19,15,22,22,17,14,15,13,12,10,9,8,6,6,5,7,8,6,4,4,4,3,3,2,2,1,1,1,1,1,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]}",
+  "image": "https://usercontent.jamendo.com?type=album&id=148985&width=300&trackid=1244308",
+  "audiodownload_allowed": true
+}

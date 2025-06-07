@@ -1,0 +1,86 @@
+
+Video:
+{
+  "id": 260063,
+  "pageURL": "https://pixabay.com/videos/id-260063/",
+  "type": "film",
+  "tags": "sunset, nature, dusk, landscape, twilight, sea, ocean, beach, clouds, sand, coast, sky, sun",
+  "duration": 33,
+  "videos": {
+    "large": {
+      "url": "https://cdn.pixabay.com/video/2025/02/21/260063_large.mp4",
+      "width": 3840,
+      "height": 2160,
+      "size": 136655623,
+      "thumbnail": "https://cdn.pixabay.com/video/2025/02/21/260063_large.jpg"
+    },
+    "medium": {
+      "url": "https://cdn.pixabay.com/video/2025/02/21/260063_medium.mp4",
+      "width": 2560,
+      "height": 1440,
+      "size": 68127434,
+      "thumbnail": "https://cdn.pixabay.com/video/2025/02/21/260063_medium.jpg"
+    },
+    "small": {
+      "url": "https://cdn.pixabay.com/video/2025/02/21/260063_small.mp4",
+      "width": 1920,
+      "height": 1080,
+      "size": 40739197,
+      "thumbnail": "https://cdn.pixabay.com/video/2025/02/21/260063_small.jpg"
+    },
+    "tiny": {
+      "url": "https://cdn.pixabay.com/video/2025/02/21/260063_tiny.mp4",
+      "width": 1280,
+      "height": 720,
+      "size": 13027813,
+      "thumbnail": "https://cdn.pixabay.com/video/2025/02/21/260063_tiny.jpg"
+    }
+  },
+  "views": 629,
+  "downloads": 399,
+  "likes": 27,
+  "comments": 0,
+  "user_id": 26930749,
+  "user": "TonyDias7",
+  "userImageURL": "https://cdn.pixabay.com/user/2023/02/26/23-43-36-455_250x250.jpg",
+  "noAiTraining": false
+}
+Quote:
+{
+  "text": "A vida é um processo de aprendizado contínuo. Seja aberto, reflita e aja com consciência",
+  "mood": "poético",
+  "tags": "sunset sky clouds",
+  "hashtags": "#CrescimentoPessoal #Desenvolvimento #Sabedoria #Inspiração #Reflexão",
+  "description": "Descubra o poder da consciência e da reflexão para transformar sua vida.",
+  "prompt": "Crie citações-síntese a partir do conjunto das citações abaixo de forma que as sumarize em uma nova frase de até 120 caracteres. Gere 3 versões com tons diferentes (filosófico, emocional, poético, provocador etc.). 2 com algum dos tons de exemplo (escolhidos de forma aleatória) e 1 com um tom aleatório (sem ser algum dos que citei) que você acredite fazer sentido para o contexto após análise das citações, sempre mantendo o mais humano possível.Não ultrapasse o limite de 120 em nenhuma delas e considere os espaços em branco entre as palavras na contagem de caracteres! Dito isto, gere cada uma com um tamanho diferente, a primeira curta, a segunda média e a terceira só um pouquinho maior que a segunda. As citações-síntese devem ser retornadas em um array JSON, com cada objeto contendo as propriedades \"text\" e \"mood\". Além disso, adicione uma propriedade \"tags\" contendo palavras-chave em inglês que possam ser usadas para buscar vídeos de fundo que remetam às citações. As tags devem ser palavras concretas como \"nature\", \"animals\", \"mountains\", \"sea\", \"fish\" e outras baseadas mas não limitadas a essas. e devem ser combinadas em uma string separadas apenas por espaço em branco. Adicione também uma propriedade \"hashtags\" que sejam 5 ou mais palavras otimizadas comumente usadas em vídeos de sucesso para que o vídeo tenha mais chances de ser visto nas mais variadas plataformas como tiktok, youtube shorts e instagram reels para um público brasileiro. Por fim, adicione uma propriedade \"description\" que será a descrição usada no vídeo. O resultado deve ser um json válido dessa forma: {\"body\": array com as 3 citações}.\n\nCitações:\n\nNa vida costuma acontecer que, diante de dois opostos, deve-se procurar a verdade no meio.\n\nBegin with awareness and reflection. Not just once, but every single second of every single day.\n\nO sucesso faz esquecer o resto.\n\nMeanwhile, just continue on a normal trip and hope something improves. Don’t throw anything away. Never, never throw anything away.\n\nSo today, will you be part of the problem or part of the solution? Will you hear the wisdom of the world or drown it out with more noise?\n\nQuanto mais julgar e castigar, mais vai impedir seus filhos de se abrirem com você. Eles ainda vão querer agradar, ter sua aprovação, mas vão fazer isso deixando a honestidade de lado, afastando-se da sua verdadeira identidade, talvez à custa da sua saúde mental.\n\nDa história o senhor deve saber disso, pois que nunca existiram a verdadeira fé, a verdadeira moral e a verdadeira filosofia; mesmo assim as guerras, perversidades e ódios causados por elas transformaram o mundo de maneira fecunda.\n\nAuthors cannot tell us much of the love of their heroes; it is necessary that they should have been the heroes themselves.\n\nVocê se aproxima de tudo como uma tábula rasa, nada sobre você ou dento de você. O que vier será escrito por si mesmo.\n\nAn imperfect solution that exists outperforms a perfect one that doesn't.\n\nAh, sim! Todo o sofrimento pertencia ao tempo, da mesma forma que todos os receios e tormentos com que as pessoas se afligiam a si próprias.\n\nPor isso, fale pouco. De fato, o sonho vem das muitas ocupações, e do muito falar nasce a voz do insensato.\n\nVocê fala como alguém que repete, não que acredita.\n\n“If you wanted to create an education environment that was directly opposed to what the brain was good at doing, you probably would design something like a classroom. If you wanted to create a business environment that was directly opposed to what the brain was good at doing, you probably would design something like a cubicle. And if you wanted to change things, you might have to tear down both and start over.”",
+  "temperature": 1.2486325066669464,
+  "id": "34cd03ed-2510-4aa7-9249-4718ed381570"
+}
+Descrição para o vídeo:
+**Descubra o poder da consciência e da reflexão para transformar sua vida.**
+#CrescimentoPessoal #Desenvolvimento #Sabedoria #Inspiração #Reflexão
+🎵 Der Walzer der schwebenden Feder by FlauschGAU
+
+Musica:
+{
+  "id": "1080602",
+  "name": "Der Walzer der schwebenden Feder",
+  "duration": 508,
+  "artist_id": "413814",
+  "artist_name": "FlauschGAU",
+  "artist_idstr": "FlauschGAU",
+  "album_name": "Flauschout",
+  "album_id": "128733",
+  "license_ccurl": "http://creativecommons.org/licenses/by/2.0/de/",
+  "position": 6,
+  "releasedate": "2013-11-17",
+  "album_image": "https://usercontent.jamendo.com?type=album&id=128733&width=300&trackid=1080602",
+  "audio": "https://prod-1.storage.jamendo.com/?trackid=1080602&format=mp31&from=2bLyQCsRXuTrwsNAFnYXJQ%3D%3D%7CgC7jQ%2BuWT9tVaqbf9GJJMw%3D%3D",
+  "audiodownload": "https://prod-1.storage.jamendo.com/download/track/1080602/mp32/",
+  "prourl": "",
+  "shorturl": "https://jamen.do/t/1080602",
+  "shareurl": "https://www.jamendo.com/track/1080602",
+  "waveform": "{\"peaks\":[0,0,0,0,0,0,3,3,1,7,9,25,20,7,17,8,9,4,4,7,3,16,7,3,15,7,4,6,1,7,22,29,19,5,12,9,13,5,5,7,4,8,2,11,10,5,11,18,18,26,30,26,11,23,21,23,8,22,15,22,24,11,7,8,11,7,12,20,59,69,31,22,17,38,19,14,26,18,14,21,32,22,25,35,16,35,26,36,16,13,16,19,32,16,14,28,26,15,19,16,25,36,13,13,34,31,23,23,14,8,10,13,18,19,11,10,11,10,27,20,18,12,22,23,41,47,34,20,51,29,22,37,39,40,57,39,37,21,33,19,13,19,12,10,16,22,28,24,36,16,12,12,5,21,40,17,10,15,28,18,18,44,32,25,12,17,30,20,18,17,19,20,22,15,21,16,17,18,25,15,16,29,18,9,12,23,44,23,18,10,7,6,4,9,23,35,22,33,32,26,21,16,26,25,39,16,11,22,30,13,11,10,11,15,20,12,12,25,22,36,34,17,20,36,59,21,13,10,9,6,8,8,15,12,8,15,20,24,22,28,19,16,17,16,15,32,39,32,25,27,26,25,34,28,25,17,21,15,12,22,18,19,15,21,15,12,14,11,10,9,12,6,8,9,6,16,32,23,28,24,19,35,14,10,10,28,10,5,5,9,11,5,12,11,15,16,23,29,26,39,21,13,9,8,7,5,11,27,28,30,42,45,60,63,26,22,14,22,35,35,48,65,76,67,27,25,16,16,18,11,25,22,29,20,15,18,18,20,11,10,11,10,11,8,8,8,10,24,16,20,42,39,23,28,15,22,22,27,27,22,26,18,19,11,17,20,17,34,36,53,56,27,17,14,14,12,14,50,36,65,44,20,33,64,80,29,13,11,28,31,21,16,13,21,16,20,19,19,21,7,10,11,8,9,5,10,8,4,7,11,16,50,27,24,17,20,24,19,10,30,23,22,9,3,3,8,14,13,10,16,10,10,10,14,15,15,21,13,15,18,27,30,13,13,11,11,8,6,3,4,17,22,9,18,30,14,17,9,15,27,28,41,13,15,6,13,22,9,16,16,30,19,8,26,20,32,33,19,18,22,23,9,17,9,23,16,11,39,47,32,16,16,22,24,11,9,8,19,15,6,14,16,7,5,6,15,21,39,17,8,20,35,21,31,23,16,15,13,7,6,5,12,14,6,6,2,13,10,9,46,30,32,13,20,11,13,26,11,12,12,13,14,9,14,14,25,20,25,34,29,18,9,7,7,21,24,20,17,17,14,10,12,14,7,21,20,20,38,51,34,16,16,27,34,31,68,61,45,31,15,12,14,17,22,38,32,18,20,8,8,4,24,18,14,14,22,21,20,20,10,6,4,3,3,20,12,13,10,23,23,16,22,13,33,42,58,30,14,16,12,13,12,11,9,46,20,13,38,31,14,12,14,31,41,14,8,12,12,23,30,15,10,10,18,28,24,23,20,32,29,39,28,22,32,27,30,28,26,14,7,18,23,14,26,26,25,26,27,30,31,26,24,20,34,27,24,23,31,24,12,25,50,51,36,25,19,16,32,26,21,19,37,28,26,36,33,44,40,36,35,42,52,38,39,31,27,30,31,35,31,30,28,26,32,31,35,25,29,29,37,37,29,30,33,30,24,36,66,61,51,61,62,48,39,46,41,35,28,40,34,44,25,14,10,22,34,30,22,43,65,70,58,41,42,40,39,35,19,15,17,12,7,6,11,33,56,51,66,62,64,73,57,100,76,63,42,39,32,24,19,17,9,5,4,15,38,33,39,34,37,39,41,43,34,30,28,23,15,9,14,26,11,26,26,35,56,50,32,31,41,62,75,55,50,67,53,51,53,49,50,40,38,23,21,25,15,15,18,28,22,34,26,36,30,24,31,23,22,25,23,24,18,17,10,16,18,28,37,31,47,22,25,34,26,15,20,20,19,14,7,4,2,14,29,33,41,42,41,25,16,6,4,16,36,60,67,83,85,35,47,37,36,28,26,19,12,15,19,10,6,26,32,35,41,37,22,15,9,8,5,9,7,3,4,27,28,15,7,9,4,30,20,12,7,10,22,10,6,3,29,37,14,22,10,17,31,12,8,8,36,27,9,21,12,21,20,19,9,6,4,3,3,2,2,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0]}",
+  "image": "https://usercontent.jamendo.com?type=album&id=128733&width=300&trackid=1080602",
+  "audiodownload_allowed": true
+}

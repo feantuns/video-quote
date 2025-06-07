@@ -1,0 +1,86 @@
+
+Video:
+{
+  "id": 142899,
+  "pageURL": "https://pixabay.com/videos/id-142899/",
+  "type": "film",
+  "tags": "christmas, christmas decorations, bullet, heart, love, christmas time, decoration, christmas tree, festive season",
+  "duration": 25,
+  "videos": {
+    "large": {
+      "url": "https://cdn.pixabay.com/video/2022/12/14/142899-781314391_large.mp4",
+      "width": 3840,
+      "height": 2160,
+      "size": 55810370,
+      "thumbnail": "https://cdn.pixabay.com/video/2022/12/14/142899-781314391_large.jpg"
+    },
+    "medium": {
+      "url": "https://cdn.pixabay.com/video/2022/12/14/142899-781314391_medium.mp4",
+      "width": 2560,
+      "height": 1440,
+      "size": 27908824,
+      "thumbnail": "https://cdn.pixabay.com/video/2022/12/14/142899-781314391_medium.jpg"
+    },
+    "small": {
+      "url": "https://cdn.pixabay.com/video/2022/12/14/142899-781314391_small.mp4",
+      "width": 1920,
+      "height": 1080,
+      "size": 18141988,
+      "thumbnail": "https://cdn.pixabay.com/video/2022/12/14/142899-781314391_small.jpg"
+    },
+    "tiny": {
+      "url": "https://cdn.pixabay.com/video/2022/12/14/142899-781314391_tiny.mp4",
+      "width": 1280,
+      "height": 720,
+      "size": 9456161,
+      "thumbnail": "https://cdn.pixabay.com/video/2022/12/14/142899-781314391_tiny.jpg"
+    }
+  },
+  "views": 37083,
+  "downloads": 12722,
+  "likes": 155,
+  "comments": 32,
+  "user_id": 10327513,
+  "user": "NickyPe",
+  "userImageURL": "https://cdn.pixabay.com/user/2024/02/05/16-05-14-742_250x250.jpg",
+  "noAiTraining": false
+}
+Quote:
+{
+  "text": "O verdadeiro sucesso combina coração, intenção e ação.",
+  "mood": "emocional",
+  "tags": "heart intention action success",
+  "hashtags": "#Sucesso #Proposito #Intenção #Ação #Amor",
+  "description": "Aprenda a importance of aligning heart and intention with your actions.",
+  "prompt": "Crie citações-síntese a partir do conjunto das citações abaixo de forma que as sumarize em uma nova frase de até 120 caracteres. Gere 3 versões com tons diferentes (filosófico, emocional, poético, provocador etc.). 2 com algum dos tons de exemplo (escolhidos de forma aleatória) e 1 com um tom aleatório (sem ser algum dos que citei) que você acredite fazer sentido para o contexto após análise das citações, sempre mantendo o mais humano possível.Não ultrapasse o limite de 120 em nenhuma delas e considere os espaços em branco entre as palavras na contagem de caracteres! Dito isto, gere cada uma com um tamanho diferente, a primeira curta, a segunda média e a terceira só um pouquinho maior que a segunda. As citações-síntese devem ser retornadas em um array JSON, com cada objeto contendo as propriedades \"text\" e \"mood\". Além disso, adicione uma propriedade \"tags\" contendo palavras-chave em inglês que possam ser usadas para buscar vídeos de fundo que remetam às citações. As tags devem ser palavras concretas como \"nature\", \"animals\", \"mountains\", \"sea\", \"fish\" e outras baseadas mas não limitadas a essas. e devem ser combinadas em uma string separadas apenas por espaço em branco. Adicione também uma propriedade \"hashtags\" que sejam 5 ou mais palavras otimizadas comumente usadas em vídeos de sucesso para que o vídeo tenha mais chances de ser visto nas mais variadas plataformas como tiktok, youtube shorts e instagram reels para um público brasileiro. Por fim, adicione uma propriedade \"description\" que será a descrição usada no vídeo. O resultado deve ser um json válido dessa forma: {\"body\": array com as 3 citações}.\n\nCitações:\n\nThe capacity to get up and walk away from the work is the *same* capacity that permits you to make meaningful progress in the work, when the time for that arrives.\n\nAsk a question or repeat a point. Questions and comments show you are really a part of the conversation and are hearing what the other person has to say.\n\nBut why, my dear Crito, should we care about the opinion of the many?\n\n“Conheça todas as teorias, domine todas as técnicas, mas, ao tocar uma alma humana, seja apenas outra alma humana.” (Carl Jung)\n\nWhen you want to hurry something, that means you no longer care about it and want to get on to other things.\n\nYour life is plenty long—just use it properly.\n\n\"Líderes ruins se importam com quem está certo. Líderes bons se importam no que está certo\" - Simon Sinek. Reflita sobre isso. A diferença entre quem e o que.\n\n“true good fortune is what you make for yourself. Good fortune: good character, good intentions and good actions.”\n\nEu não falaria tanto sobre mim mesmo se existisse alguma outra pessoa que eu conhecesse tão bem.\n\nThere is nothing reliable to be learned about making money. If there were, study would be intense and everyone with a positive IQ would be rich. - John Galbraith\n\nQuem quer que me ofereça uma folha, uma flor, uma fruta, ou apenas um bocado d’água, desde que o faça com o coração, eu aceito. Eu aceito todas as oferendas daqueles que me amam, ó príncipe. (9.26*)\n\nBut Walt was not interested in cutting corners. It was typical of him that anything he went into had to be the best, and not just the best of what was currently being done, but the best it was possible to do.\n\nSuccess in business comes from helping people — bringing the most happiness to the most people.\n\nThe right thing at one time is the wrong thing at another. This is why the wise approach everything with both courage and caution.\n\n“People who have studied logic and rhetoric are better able to persuade others. Perhaps more importantly, they are more likely to demand logical arguments and less likely to be swept away by a charismatic leader who plays on their emotions. That’s”",
+  "temperature": 1.2649689064053409,
+  "id": "113a0f1c-df2b-4af8-b69b-2435ef76ac61"
+}
+Descrição para o vídeo:
+**Aprenda a importance of aligning heart and intention with your actions.**
+#Sucesso #Proposito #Intenção #Ação #Amor
+🎵 The Demise of Betelgeux, Op 190 by Edward Schaffer
+
+Musica:
+{
+  "id": "1244439",
+  "name": "The Demise of Betelgeux, Op 190",
+  "duration": 366,
+  "artist_id": "368701",
+  "artist_name": "Edward Schaffer",
+  "artist_idstr": "Edward_Schaffer",
+  "album_name": "Tone Poem Project #10",
+  "album_id": "148987",
+  "license_ccurl": "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+  "position": 2,
+  "releasedate": "2015-06-29",
+  "album_image": "https://usercontent.jamendo.com?type=album&id=148987&width=300&trackid=1244439",
+  "audio": "https://prod-1.storage.jamendo.com/?trackid=1244439&format=mp31&from=TX9NZAZRhSRKzB3vZHQzug%3D%3D%7CK5H90gKG6WunMx6JKPiKlg%3D%3D",
+  "audiodownload": "https://prod-1.storage.jamendo.com/download/track/1244439/mp32/",
+  "prourl": "",
+  "shorturl": "https://jamen.do/t/1244439",
+  "shareurl": "https://www.jamendo.com/track/1244439",
+  "waveform": "{\"peaks\":[0,0,0,1,1,1,6,12,13,22,30,35,42,34,34,38,36,29,26,26,23,22,19,25,29,27,24,25,30,30,29,25,24,20,19,17,14,12,12,13,13,14,11,15,17,21,20,20,21,17,15,13,15,15,20,23,21,23,25,23,21,20,24,24,21,19,19,16,13,19,22,27,26,23,26,23,16,14,11,9,10,14,18,20,20,20,22,19,15,15,14,17,22,17,15,17,14,13,16,15,14,20,21,18,19,19,19,19,17,16,14,21,22,18,21,17,20,24,19,18,17,14,14,12,15,17,16,13,12,16,15,13,18,19,17,14,17,21,19,16,15,14,14,11,13,14,13,13,9,9,22,31,41,49,47,53,51,40,31,29,31,35,37,32,43,40,49,36,51,40,54,47,44,41,39,31,31,22,35,24,37,34,32,33,36,36,39,38,33,35,36,34,37,35,35,37,34,41,39,36,38,40,35,29,25,21,23,24,28,27,24,22,24,22,17,16,16,22,25,23,21,21,19,18,20,19,33,43,39,51,42,43,48,47,33,35,23,40,30,32,31,28,32,35,33,38,35,34,34,30,32,38,39,41,41,38,52,37,40,38,36,43,31,32,34,39,31,30,28,24,20,18,14,14,11,9,7,5,10,11,13,13,15,18,16,16,18,19,24,19,22,19,21,15,16,13,11,7,2,1,1,3,7,15,27,44,55,55,55,56,56,56,57,56,56,56,56,57,64,76,81,84,80,83,81,81,80,80,67,62,63,64,65,64,62,61,63,64,66,61,67,80,83,85,100,100,95,90,82,81,82,76,76,73,74,79,80,80,76,66,70,60,67,61,63,62,59,46,50,43,42,45,49,43,44,42,40,40,35,32,33,29,28,25,25,23,21,22,20,20,18,17,17,18,16,17,15,15,15,16,14,15,13,11,11,10,9,8,7,7,5,3,2,2,2,2,2,2,2,3,3,2,2,2,3,4,14,16,10,7,11,22,22,45,23,58,40,65,40,58,57,62,44,33,36,46,46,36,38,34,41,44,44,35,37,32,31,27,30,27,23,21,33,15,16,23,23,22,21,21,44,23,37,28,36,33,37,37,20,25,19,28,38,41,37,60,69,74,58,76,53,55,37,41,37,45,34,35,35,41,36,49,38,31,30,30,27,25,24,23,16,15,10,6,3,1,1,0,0,1,4,5,7,8,9,10,13,14,16,16,16,17,15,15,15,13,14,14,15,16,16,17,18,17,18,18,18,16,14,12,10,9,8,9,10,11,12,13,12,13,15,15,16,16,15,13,15,17,17,16,17,17,17,16,16,15,16,16,15,17,16,16,15,15,15,15,15,15,15,15,15,15,15,15,15,14,14,14,12,15,15,14,14,14,14,14,14,15,14,15,15,16,15,13,14,15,15,14,15,16,14,18,18,21,28,34,43,52,59,62,63,64,60,55,50,47,42,38,36,37,38,39,36,32,30,23,12,12,13,14,13,14,14,16,16,14,17,17,16,15,19,9,11,12,12,13,12,18,20,21,19,19,19,21,28,20,22,22,16,18,24,23,20,23,23,26,28,33,22,21,22,22,15,16,17,18,14,13,21,24,23,24,30,36,27,23,24,24,22,18,19,20,20,17,18,20,21,13,10,14,12,13,12,14,19,26,35,38,38,39,39,36,33,32,26,26,27,23,27,31,28,31,35,35,35,35,33,33,26,26,24,21,17,17,17,20,25,25,27,25,26,21,21,22,26,20,15,12,15,20,28,30,37,36,36,40,33,25,25,24,21,23,32,33,29,41,32,43,28,44,31,50,43,40,41,38,32,29,29,38,34,45,48,42,42,38,40,42,37,42,42,48,46,48,44,43,43,38,41,40,39,38,38,36,36,33,31,32,32,32,32,35,40,39,30,31,30,26,27,23,21,23,23,26,22,22,21,33,37,32,49,35,38,46,41,30,32,23,35,26,28,27,24,27,28,29,37,33,33,34,29,33,37,39,42,42,39,51,36,38,37,36,40,29,29,31,37,31,30,29,24,19,17,15,12,11,9,7,5,9,11,14,15,21,23,22,23,24,23,21,16,14,13,12,10,7,7,6,4,5,7,9,10,11,14,17,17,18,19,21,18,16,18,18,14,15,15,14,11,12,11,11,10,8,7,6,5,4,3,2,2,1,1,0,0,0,0,0,0,0]}",
+  "image": "https://usercontent.jamendo.com?type=album&id=148987&width=300&trackid=1244439",
+  "audiodownload_allowed": true
+}

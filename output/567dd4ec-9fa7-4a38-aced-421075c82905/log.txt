@@ -1,0 +1,86 @@
+
+Video:
+{
+  "id": 184069,
+  "pageURL": "https://pixabay.com/videos/id-184069/",
+  "type": "film",
+  "tags": "sea, coast, waves, mallorca, spain, aerial view, drone footage, nature, ocean",
+  "duration": 26,
+  "videos": {
+    "large": {
+      "url": "https://cdn.pixabay.com/video/2023/10/08/184069-872413642_large.mp4",
+      "width": 3840,
+      "height": 2160,
+      "size": 82543343,
+      "thumbnail": "https://cdn.pixabay.com/video/2023/10/08/184069-872413642_large.jpg"
+    },
+    "medium": {
+      "url": "https://cdn.pixabay.com/video/2023/10/08/184069-872413642_medium.mp4",
+      "width": 2560,
+      "height": 1440,
+      "size": 45281809,
+      "thumbnail": "https://cdn.pixabay.com/video/2023/10/08/184069-872413642_medium.jpg"
+    },
+    "small": {
+      "url": "https://cdn.pixabay.com/video/2023/10/08/184069-872413642_small.mp4",
+      "width": 1920,
+      "height": 1080,
+      "size": 19247310,
+      "thumbnail": "https://cdn.pixabay.com/video/2023/10/08/184069-872413642_small.jpg"
+    },
+    "tiny": {
+      "url": "https://cdn.pixabay.com/video/2023/10/08/184069-872413642_tiny.mp4",
+      "width": 1280,
+      "height": 720,
+      "size": 9942304,
+      "thumbnail": "https://cdn.pixabay.com/video/2023/10/08/184069-872413642_tiny.jpg"
+    }
+  },
+  "views": 84762,
+  "downloads": 42832,
+  "likes": 675,
+  "comments": 64,
+  "user_id": 28253408,
+  "user": "Radds",
+  "userImageURL": "https://cdn.pixabay.com/user/2023/09/26/21-00-46-91_250x250.jpeg",
+  "noAiTraining": false
+}
+Quote:
+{
+  "text": "A vida é um presente, use-a com sabedoria e amor.",
+  "mood": "poético",
+  "tags": "sun flowers sea",
+  "hashtags": "#Vida #Amor #Sabedoria #Inspiracao #Motivacao",
+  "description": "Aprenda a viver com plenitude e propósito",
+  "prompt": "Crie citações-síntese a partir do conjunto das citações abaixo de forma que as sumarize em uma nova frase de até 120 caracteres. Gere 3 versões com tons diferentes (filosófico, emocional, poético, provocador etc.). 2 com algum dos tons de exemplo (escolhidos de forma aleatória) e 1 com um tom aleatório (sem ser algum dos que citei) que você acredite fazer sentido para o contexto após análise das citações, sempre mantendo o mais humano possível.Não ultrapasse o limite de 120 em nenhuma delas e considere os espaços em branco entre as palavras na contagem de caracteres! Dito isto, gere cada uma com um tamanho diferente, a primeira curta, a segunda média e a terceira só um pouquinho maior que a segunda. As citações-síntese devem ser retornadas em um array JSON, com cada objeto contendo as propriedades \"text\" e \"mood\". Além disso, adicione uma propriedade \"tags\" contendo palavras-chave em inglês que possam ser usadas para buscar vídeos de fundo que remetam às citações. As tags devem ser palavras concretas como \"nature\", \"animals\", \"mountains\", \"sea\", \"fish\" e outras baseadas mas não limitadas a essas. e devem ser combinadas em uma string separadas apenas por espaço em branco. Adicione também uma propriedade \"hashtags\" que sejam 5 ou mais palavras otimizadas comumente usadas em vídeos de sucesso para que o vídeo tenha mais chances de ser visto nas mais variadas plataformas como tiktok, youtube shorts e instagram reels para um público brasileiro. Por fim, adicione uma propriedade \"description\" que será a descrição usada no vídeo. O resultado deve ser um json válido dessa forma: {\"body\": array com as 3 citações}.\n\nCitações:\n\nFilhinhos, não nos limitemos a dizer que amamos uns aos outros; demonstremos a verdade por meio de nossas ações.\n\nThe most important sentence in any article is the first one. If it doesn’t induce the reader to proceed to the second sentence, your article is dead.\n\nI have always had a fancy that learning might be made a play and recreation to children: and that they might be brought to desire to be taught,\n\naquele parecia ser um desses momentos por amor aos quais Deus criou o mundo.\n\né como se tivéssemos dois destinos: um ágil e desimportante que se cumpre, outro imóvel e importante que jamais descobrimos.\n\nQuem eleva sua mente e, preenchido de fé e de amor, pensa em mim, o onisciente, o ancestral dos ancestrais, o infinitamente pequeno e o colosso dos colossos, aquele que sustenta todas as leis naturais, o inefável, o inconcebível, a luz de si mesmo, aquele que a tudo abarca e transcende, quem fecha os olhos materiais e me vê, face a face, com a visão espiritual, este deixa de sobreviver, e inicia a verdadeira vida!\n\nDeve-se apreciar a vida antes de querer preservá-la\n\nI hope these selections ignite in you the understanding that drove him: that everything that makes up what we call life was made by people no smarter, no more capable, than we are; that our world is not fixed—and so we can change it for the better.\n\nThose who can raise their thoughts to heaven will always have clear days, because the sun always shines above the clouds.\n\nEla havia entrado no vácuo atemporal da corrida em que nada existia além de seus próprios movimentos, seu próprio corpo fazendo o que havia sido condicionado a fazer.\n\nHe has power who can keep silent in an argument, even though he is right.\n\nA escrita da história é em grande parte um processo de distração. A maioria dos relatos históricos distrai a atenção das influências secretas que cercam os eventos registrados.\n\nCada espécie de homens tem suas características, seus aspectos, seus vícios e suas virtudes, e seus pecados mortais.\n\nIt is not that we have a short time to live, but that we waste a lot of it. Life is long enough, and a sufficiently generous amount has been given to us for the highest achievements if it were all well invested.",
+  "temperature": 1.0582723065988953,
+  "id": "567dd4ec-9fa7-4a38-aced-421075c82905"
+}
+Descrição para o vídeo:
+**Aprenda a viver com plenitude e propósito**
+#Vida #Amor #Sabedoria #Inspiracao #Motivacao
+🎵 Partita n°6 à 3 en sol mineur by Jacques G Buvat
+
+Musica:
+{
+  "id": "1973895",
+  "name": "Partita n°6 à 3 en sol mineur",
+  "duration": 306,
+  "artist_id": "504612",
+  "artist_name": "Jacques G Buvat",
+  "artist_idstr": "jbuvat",
+  "album_name": "Partitas",
+  "album_id": "496047",
+  "license_ccurl": "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+  "position": 6,
+  "releasedate": "2022-09-18",
+  "album_image": "https://usercontent.jamendo.com?type=album&id=496047&width=300&trackid=1973895",
+  "audio": "https://prod-1.storage.jamendo.com/?trackid=1973895&format=mp31&from=zKcn%2B4MuIh01knTsa%2FveiQ%3D%3D%7CQThSjYQgmFN8jzdWj4Fn9w%3D%3D",
+  "audiodownload": "https://prod-1.storage.jamendo.com/download/track/1973895/mp32/",
+  "prourl": "",
+  "shorturl": "https://jamen.do/t/1973895",
+  "shareurl": "https://www.jamendo.com/track/1973895",
+  "waveform": "{\"peaks\": [0, 0, 0, 0, 0, 0, 8, 16, 7, 8, 10, 14, 18, 20, 7, 8, 17, 16, 6, 7, 22, 22, 20, 19, 10, 7, 17, 18, 15, 13, 8, 18, 17, 15, 6, 7, 7, 16, 18, 7, 21, 17, 8, 10, 19, 20, 13, 16, 25, 26, 42, 32, 25, 24, 24, 18, 7, 12, 12, 9, 9, 12, 20, 13, 8, 11, 21, 21, 24, 20, 27, 30, 32, 20, 3, 9, 21, 12, 24, 31, 40, 26, 32, 22, 35, 21, 22, 17, 20, 18, 22, 22, 29, 35, 36, 22, 22, 23, 28, 30, 35, 25, 22, 35, 28, 38, 44, 41, 48, 30, 34, 37, 23, 21, 33, 43, 38, 24, 26, 36, 30, 21, 33, 24, 39, 32, 32, 38, 25, 26, 17, 26, 15, 25, 28, 29, 25, 27, 27, 6, 8, 17, 8, 10, 17, 48, 62, 65, 55, 45, 36, 45, 52, 58, 39, 54, 38, 59, 48, 48, 46, 35, 28, 40, 37, 24, 30, 52, 35, 39, 27, 33, 39, 51, 37, 43, 44, 43, 22, 23, 12, 10, 19, 41, 32, 43, 37, 51, 43, 55, 33, 32, 55, 53, 29, 39, 48, 50, 42, 57, 38, 49, 49, 50, 44, 59, 49, 66, 74, 67, 21, 9, 28, 45, 43, 53, 39, 45, 33, 44, 36, 42, 25, 36, 37, 34, 50, 63, 74, 57, 31, 32, 24, 20, 41, 54, 50, 34, 22, 30, 36, 40, 25, 12, 42, 26, 30, 33, 38, 34, 48, 42, 48, 45, 54, 52, 64, 49, 54, 63, 73, 53, 57, 60, 68, 38, 42, 45, 66, 45, 32, 41, 55, 38, 27, 36, 58, 45, 55, 45, 55, 52, 50, 42, 44, 54, 59, 55, 69, 40, 38, 48, 73, 54, 58, 50, 56, 36, 49, 61, 53, 29, 40, 47, 48, 48, 63, 69, 62, 39, 35, 43, 55, 31, 43, 45, 42, 11, 7, 22, 24, 10, 9, 16, 26, 14, 15, 26, 37, 37, 31, 41, 44, 31, 34, 46, 41, 39, 34, 56, 46, 25, 25, 27, 29, 51, 40, 30, 30, 28, 31, 33, 20, 25, 33, 53, 42, 39, 33, 45, 51, 53, 27, 9, 23, 35, 34, 35, 27, 36, 43, 48, 38, 50, 40, 59, 48, 53, 50, 59, 34, 31, 28, 43, 64, 100, 64, 57, 51, 55, 37, 46, 58, 67, 47, 57, 53, 58, 41, 46, 32, 28, 27, 41, 29, 38, 45, 32, 43, 33, 37, 42, 34, 41, 54, 45, 41, 33, 34, 40, 37, 34, 45, 49, 51, 51, 51, 45, 36, 36, 36, 40, 41, 52, 66, 68, 35, 30, 40, 41, 56, 49, 22, 14, 20, 16, 10, 13, 26, 32, 31, 30, 36, 31, 40, 32, 38, 42, 44, 34, 40, 42, 55, 36, 46, 51, 28, 27, 41, 38, 28, 33, 52, 40, 39, 38, 29, 26, 37, 44, 50, 57, 57, 29, 31, 36, 66, 37, 32, 49, 79, 45, 45, 14, 5, 5, 9, 19, 10, 24, 34, 24, 33, 20, 21, 36, 28, 31, 23, 31, 30, 22, 19, 20, 26, 34, 34, 25, 33, 37, 39, 40, 16, 14, 35, 26, 53, 46, 46, 49, 42, 17, 10, 15, 19, 47, 52, 49, 39, 28, 35, 29, 24, 31, 34, 34, 36, 49, 37, 51, 34, 27, 39, 55, 47, 65, 53, 61, 49, 34, 41, 64, 43, 55, 36, 30, 38, 43, 34, 48, 45, 41, 29, 32, 35, 57, 67, 62, 58, 63, 72, 72, 25, 9, 4, 1, 0, 1, 22, 32, 31, 40, 48, 69, 45, 51, 38, 45, 31, 36, 37, 48, 28, 33, 40, 48, 29, 34, 51, 63, 73, 58, 30, 31, 32, 47, 55, 43, 37, 45, 49, 49, 50, 47, 45, 32, 7, 4, 13, 13, 6, 10, 11, 17, 21, 14, 7, 12, 17, 11, 7, 13, 25, 20, 21, 14, 8, 12, 20, 16, 15, 9, 14, 16, 18, 8, 7, 4, 15, 17, 10, 15, 22, 10, 9, 13, 23, 14, 16, 20, 24, 34, 42, 25, 24, 24, 24, 8, 10, 14, 9, 8, 10, 18, 19, 8, 10, 15, 22, 23, 21, 22, 29, 31, 30, 8, 1, 0, 1, 17, 20, 6, 36, 32, 37, 26, 32, 24, 32, 19, 23, 16, 21, 18, 24, 25, 31, 35, 33, 21, 22, 26, 34, 30, 33, 24, 25, 35, 29, 46, 42, 44, 37, 32, 34, 33, 21, 25, 38, 41, 32, 25, 29, 34, 26, 26, 30, 30, 37, 31, 35, 33, 23, 25, 20, 23, 26, 27, 26, 28, 15, 24, 13, 5, 16, 10, 10, 10, 32, 58, 62, 71, 41, 46, 39, 58, 61, 40, 43, 59, 51, 63, 40, 51, 35, 29, 31, 45, 27, 23, 38, 53, 30, 39, 27, 35, 41, 53, 34, 42, 46, 35, 21, 20, 9, 11, 30, 42, 35, 35, 44, 49, 48, 51, 30, 43, 57, 40, 31, 45, 50, 44, 52, 47, 47, 45, 53, 43, 55, 49, 58, 71, 75, 45, 15, 13, 43, 40, 52, 43, 42, 36, 40, 36, 45, 33, 32, 33, 38, 41, 58, 68, 73, 34, 32, 29, 21, 28, 49, 55, 45, 24, 29, 29, 44, 32, 15, 26, 41, 21, 36, 29, 41, 34, 51, 39, 52, 49, 58, 58, 55, 51, 59, 70, 66, 49, 62, 64, 56, 36, 40, 57, 66, 31, 36, 49, 55, 25, 29, 52, 53, 44, 52, 53, 50, 52, 40, 43, 50, 58, 58, 56, 65, 36, 39, 58, 70, 55, 59, 59, 43, 42, 58, 57, 39, 33, 44, 50, 48, 56, 62, 73, 47, 41, 35, 52, 41, 36, 46, 48, 49, 51, 20, 6, 3, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]}",
+  "image": "https://usercontent.jamendo.com?type=album&id=496047&width=300&trackid=1973895",
+  "audiodownload_allowed": true
+}

@@ -1,0 +1,86 @@
+
+Video:
+{
+  "id": 225836,
+  "pageURL": "https://pixabay.com/videos/id-225836/",
+  "type": "film",
+  "tags": "sunset, dusk, sea, sky, twilight, ocean, water, clouds, beach, horizon, sun, silhouette, wave, boat, reflection, nature, landscape",
+  "duration": 34,
+  "videos": {
+    "large": {
+      "url": "https://cdn.pixabay.com/video/2024/08/10/225836_large.mp4",
+      "width": 3840,
+      "height": 2160,
+      "size": 302433173,
+      "thumbnail": "https://cdn.pixabay.com/video/2024/08/10/225836_large.jpg"
+    },
+    "medium": {
+      "url": "https://cdn.pixabay.com/video/2024/08/10/225836_medium.mp4",
+      "width": 2560,
+      "height": 1440,
+      "size": 177236090,
+      "thumbnail": "https://cdn.pixabay.com/video/2024/08/10/225836_medium.jpg"
+    },
+    "small": {
+      "url": "https://cdn.pixabay.com/video/2024/08/10/225836_small.mp4",
+      "width": 1920,
+      "height": 1080,
+      "size": 103327068,
+      "thumbnail": "https://cdn.pixabay.com/video/2024/08/10/225836_small.jpg"
+    },
+    "tiny": {
+      "url": "https://cdn.pixabay.com/video/2024/08/10/225836_tiny.mp4",
+      "width": 1280,
+      "height": 720,
+      "size": 33611588,
+      "thumbnail": "https://cdn.pixabay.com/video/2024/08/10/225836_tiny.jpg"
+    }
+  },
+  "views": 1245,
+  "downloads": 592,
+  "likes": 35,
+  "comments": 4,
+  "user_id": 26930749,
+  "user": "TonyDias7",
+  "userImageURL": "https://cdn.pixabay.com/user/2023/02/26/23-43-36-455_250x250.jpg",
+  "noAiTraining": false
+}
+Quote:
+{
+  "text": "Não espere para viver, aja agora e mude sua história",
+  "mood": "emocional",
+  "tags": "animals sun sea",
+  "hashtags": "#VivaNoPresente #Mudança #CrescimentoPessoal #Iniciativa #Sucesso",
+  "description": "Não deixe que a vida passe por você, faça dela acontecer",
+  "prompt": "Crie citações-síntese a partir do conjunto das citações abaixo de forma que as sumarize em uma nova frase de até 120 caracteres. Gere 3 versões com tons diferentes (filosófico, emocional, poético, provocador etc.). 2 com algum dos tons de exemplo (escolhidos de forma aleatória) e 1 com um tom aleatório (sem ser algum dos que citei) que você acredite fazer sentido para o contexto após análise das citações, sempre mantendo o mais humano possível.Não ultrapasse o limite de 120 em nenhuma delas e considere os espaços em branco entre as palavras na contagem de caracteres! Dito isto, gere cada uma com um tamanho diferente, a primeira curta, a segunda média e a terceira só um pouquinho maior que a segunda. As citações-síntese devem ser retornadas em um array JSON, com cada objeto contendo as propriedades \"text\" e \"mood\". Além disso, adicione uma propriedade \"tags\" contendo palavras-chave em inglês que possam ser usadas para buscar vídeos de fundo que remetam às citações. As tags devem ser palavras concretas como \"nature\", \"animals\", \"mountains\", \"sea\", \"fish\" e outras baseadas mas não limitadas a essas. e devem ser combinadas em uma string separadas apenas por espaço em branco. Adicione também uma propriedade \"hashtags\" que sejam 5 ou mais palavras otimizadas comumente usadas em vídeos de sucesso para que o vídeo tenha mais chances de ser visto nas mais variadas plataformas como tiktok, youtube shorts e instagram reels para um público brasileiro. Por fim, adicione uma propriedade \"description\" que será a descrição usada no vídeo. O resultado deve ser um json válido dessa forma: {\"body\": array com as 3 citações}.\n\nCitações:\n\nRather would it not be true that it never appears exactly the same to you, because you are never exactly the same?\n\nThe less we do, the more we see.  \nThe more we see, the clearer life becomes.  \nThe clearer life becomes, the more we understand what truly matters.\n\nThis is as true today as it was then: there must be story business that calls for good animation or there will be no wellanimated scenes.\n\nThere’s no excuse to not take any of those simple actions now and finally break the chain of procrastination. Don’t overthink it and don’t obsess over the future; take care of establishing a tiny habit today, and take it from there.\n\nComo é tentador erguer muros altos e manter as mudanças do lado de fora.\n\nPois uma alma verdadeiramente máscula é solícita, e é solícita por ser máscula.\n\nAgora não é o momento de pensar naquilo que você não tem. Pense antes no que pode fazer com aquilo que tem.\n\nIt is not uncommon for people to spend their whole life waiting to start living.\n\nMaking good engineering decisions is all about weighing all of the available inputs and making informed decisions about the trade-offs. Sometimes, those decisions are based on instinct or accepted best practice, but only after we have exhausted approaches that try to measure or estimate the true underlying costs.\n\nNão permita que a bondade e a lealdade o abandonem; prenda-as ao redor do pescoço e escreva-as no fundo do coração.\n\nEvitar contendas é sinal de honra; apenas o insensato insiste em brigar.",
+  "temperature": 1.380113978546545,
+  "id": "8e2f088f-7347-45ed-8aff-7373aa9c65cd"
+}
+Descrição para o vídeo:
+**Não deixe que a vida passe por você, faça dela acontecer**
+#VivaNoPresente #Mudança #CrescimentoPessoal #Iniciativa #Sucesso
+🎵 onclassical_stuani_chopin_preludes_opus-28_21 by Giampaolo Stuani
+
+Musica:
+{
+  "id": "431443",
+  "name": "onclassical_stuani_chopin_preludes_opus-28_21",
+  "duration": 122,
+  "artist_id": "352267",
+  "artist_name": "Giampaolo Stuani",
+  "artist_idstr": "Giampaolo_Stuani",
+  "album_name": "Classical Music - Chopin: Preludes Op. 28",
+  "album_id": "52440",
+  "license_ccurl": "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+  "position": 24,
+  "releasedate": "2009-09-21",
+  "album_image": "https://usercontent.jamendo.com?type=album&id=52440&width=300&trackid=431443",
+  "audio": "https://prod-1.storage.jamendo.com/?trackid=431443&format=mp31&from=XnCOIVNSzH7TQd8tY0Oo7Q%3D%3D%7Cb5THreLlgZQCOshNyITPNA%3D%3D",
+  "audiodownload": "https://prod-1.storage.jamendo.com/download/track/431443/mp32/",
+  "prourl": "https://licensing.jamendo.com/track/431443",
+  "shorturl": "https://jamen.do/t/431443",
+  "shareurl": "https://www.jamendo.com/track/431443",
+  "waveform": "{\"peaks\":[0,0,0,4,5,5,3,2,2,10,8,8,18,15,17,15,16,14,23,33,26,22,16,19,11,22,18,28,28,25,22,20,18,14,13,17,13,9,8,7,10,9,6,5,14,11,12,14,16,23,23,30,27,38,29,27,17,17,17,20,18,21,18,23,23,22,17,11,8,10,10,8,6,7,12,16,14,9,7,7,9,9,19,16,17,26,24,25,21,19,16,17,27,16,12,16,23,20,25,21,31,26,29,20,16,25,24,22,14,14,13,14,18,25,24,22,20,22,21,33,36,32,24,18,17,14,19,20,28,24,23,20,18,12,12,29,23,18,24,36,25,19,18,23,30,26,35,27,32,28,34,32,39,40,34,31,28,20,17,12,17,22,30,38,29,22,15,13,17,26,21,15,15,15,12,10,15,14,16,14,26,26,28,28,33,30,26,25,22,18,23,25,29,35,33,35,30,18,23,27,25,29,28,23,13,13,12,10,10,13,16,23,20,15,11,9,15,28,21,12,12,21,24,34,42,34,43,32,35,33,64,57,55,61,77,66,41,46,44,29,37,31,25,29,21,27,40,42,60,58,52,45,42,37,61,46,25,21,18,32,34,48,47,39,41,36,34,22,17,15,17,25,17,13,11,51,65,42,32,30,23,22,24,23,20,39,32,35,33,45,49,38,36,66,57,43,40,56,43,44,53,83,53,46,52,81,59,40,33,54,52,44,43,40,34,26,43,38,28,26,32,25,26,32,40,36,28,21,55,46,36,29,50,51,45,52,77,56,46,70,58,43,38,51,44,38,45,86,58,40,59,66,90,48,37,39,35,53,58,38,37,35,40,36,33,37,37,35,29,29,29,22,19,17,32,24,19,15,13,10,9,8,9,16,10,7,8,10,9,7,8,9,9,11,11,11,14,11,23,21,10,8,9,8,14,17,27,20,12,11,25,18,16,18,14,11,11,12,10,15,16,16,20,16,13,14,13,15,16,11,9,8,10,9,8,29,17,13,13,9,7,8,9,16,16,18,17,17,11,10,10,9,9,18,16,29,19,12,22,26,18,25,18,11,12,12,10,15,14,13,12,15,12,20,16,16,13,14,15,16,15,13,28,27,22,26,19,18,17,22,18,16,13,12,12,18,13,13,10,9,8,9,26,20,15,20,20,24,25,32,40,51,64,46,26,27,18,11,11,14,29,38,39,39,52,44,44,41,34,25,22,16,19,17,33,42,48,55,61,50,35,43,29,20,24,41,43,46,68,66,91,87,59,42,49,52,39,30,45,49,67,60,56,87,81,66,57,61,56,37,42,42,90,89,69,80,72,57,100,81,62,64,60,57,57,49,66,50,38,43,98,74,46,40,35,27,35,57,41,35,46,63,50,45,73,70,66,56,78,70,50,53,42,48,84,70,40,40,48,29,29,38,62,57,54,51,50,45,81,65,61,78,95,90,75,49,62,50,55,48,78,67,64,58,58,68,70,57,45,44,38,43,41,53,46,56,59,47,47,32,26,28,37,30,28,27,29,38,33,25,20,16,19,28,22,39,33,30,26,28,25,37,31,25,17,15,14,12,21,23,17,26,28,50,41,60,63,45,32,26,28,30,27,29,32,36,31,30,29,19,35,26,16,14,13,12,15,19,19,36,44,45,36,50,58,38,22,19,18,16,19,21,13,12,15,13,19,20,26,28,26,30,33,26,27,24,22,20,17,16,15,14,12,17,16,15,15,14,23,17,16,20,16,15,14,18,16,24,23,21,15,24,19,15,22,21,19,15,13,12,10,9,8,8,12,10,10,10,8,12,15,13,9,10,14,10,8,9,10,10,12,12,19,18,19,17,22,18,15,13,15,14,12,13,17,12,13,9,11,10,7,8,7,6,6,11,10,12,13,18,23,23,19,23,26,22,17,21,23,24,16,16,35,26,29,37,22,40,34,29,32,39,31,24,18,14,10,7,5,4,4,3,3,1,0,0,2,23,23,20,17,14,12,10,9,8,7,7,6,5,5,4,3,3,2,2,3,3,3,3,8,9,7,6,6,5,4,4,4,3,3,3,3,2,2,2,2,2,2,2,2,1,2,1,1,2,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]}",
+  "image": "https://usercontent.jamendo.com?type=album&id=52440&width=300&trackid=431443",
+  "audiodownload_allowed": true
+}

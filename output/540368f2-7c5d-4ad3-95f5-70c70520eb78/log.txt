@@ -1,0 +1,86 @@
+
+Video:
+{
+  "id": 215925,
+  "pageURL": "https://pixabay.com/videos/id-215925/",
+  "type": "film",
+  "tags": "chipmunk, rodent, tree, mammal, animal, wild, furry, forest, wool, food, garden, nature",
+  "duration": 35,
+  "videos": {
+    "large": {
+      "url": "https://cdn.pixabay.com/video/2024/06/09/215925_large.mp4",
+      "width": 4096,
+      "height": 2160,
+      "size": 153651894,
+      "thumbnail": "https://cdn.pixabay.com/video/2024/06/09/215925_large.jpg"
+    },
+    "medium": {
+      "url": "https://cdn.pixabay.com/video/2024/06/09/215925_medium.mp4",
+      "width": 2730,
+      "height": 1439,
+      "size": 59974178,
+      "thumbnail": "https://cdn.pixabay.com/video/2024/06/09/215925_medium.jpg"
+    },
+    "small": {
+      "url": "https://cdn.pixabay.com/video/2024/06/09/215925_small.mp4",
+      "width": 2048,
+      "height": 1080,
+      "size": 34200335,
+      "thumbnail": "https://cdn.pixabay.com/video/2024/06/09/215925_small.jpg"
+    },
+    "tiny": {
+      "url": "https://cdn.pixabay.com/video/2024/06/09/215925_tiny.mp4",
+      "width": 1364,
+      "height": 719,
+      "size": 11173669,
+      "thumbnail": "https://cdn.pixabay.com/video/2024/06/09/215925_tiny.jpg"
+    }
+  },
+  "views": 642,
+  "downloads": 305,
+  "likes": 12,
+  "comments": 2,
+  "user_id": 40481190,
+  "user": "Moviemacker",
+  "userImageURL": "https://cdn.pixabay.com/user/2024/03/15/00-39-17-726_250x250.jpg",
+  "noAiTraining": false
+}
+Quote:
+{
+  "text": "A verdadeira força vem de dentro, escolha amar e não odiar",
+  "mood": "emocional",
+  "tags": "animals forest sunshine",
+  "hashtags": "#Empoderamento #AmorIncondicional #EscolhaPositiva #ForçaInterior #InspiraçãoDiária",
+  "description": "Aprenda a encontrar sua força interior e escolher o amor",
+  "prompt": "Crie citações-síntese a partir do conjunto das citações abaixo de forma que as sumarize em uma nova frase de até 120 caracteres. Gere 3 versões com tons diferentes (filosófico, emocional, poético, provocador etc.). 2 com algum dos tons de exemplo (escolhidos de forma aleatória) e 1 com um tom aleatório (sem ser algum dos que citei) que você acredite fazer sentido para o contexto após análise das citações, sempre mantendo o mais humano possível.Não ultrapasse o limite de 120 em nenhuma delas e considere os espaços em branco entre as palavras na contagem de caracteres! Dito isto, gere cada uma com um tamanho diferente, a primeira curta, a segunda média e a terceira só um pouquinho maior que a segunda. As citações-síntese devem ser retornadas em um array JSON, com cada objeto contendo as propriedades \"text\" e \"mood\". Além disso, adicione uma propriedade \"tags\" contendo palavras-chave em inglês que possam ser usadas para buscar vídeos de fundo que remetam às citações. As tags devem ser palavras concretas como \"nature\", \"animals\", \"mountains\", \"sea\", \"fish\" e outras baseadas mas não limitadas a essas. e devem ser combinadas em uma string separadas apenas por espaço em branco. Adicione também uma propriedade \"hashtags\" que sejam 5 ou mais palavras otimizadas comumente usadas em vídeos de sucesso para que o vídeo tenha mais chances de ser visto nas mais variadas plataformas como tiktok, youtube shorts e instagram reels para um público brasileiro. Por fim, adicione uma propriedade \"description\" que será a descrição usada no vídeo. O resultado deve ser um json válido dessa forma: {\"body\": array com as 3 citações}.\n\nCitações:\n\nAquela era a mensagem do tresloucado Van Gogh. Caos apresentado em magnífica ordem.\n\nThe foundation for almost any software endeavor — of almost any size — is a well-functioning team.\n\nNão queremos que nossas ideias mudem. Sentimo-nos ameaçados por tais demandas. \"Já conheço as coisas importantes!\", dizemos. Então, aquele que executa mudanças aparece e descarta nossas velhas ideias.\n\nDa mesma forma, aquele que escutar tal canção cheio de fé, e sem malícia no coração, poderá se livrar dos seus pecados e se encaminhar diretamente ao céu.\n\nAnalisar o mundo, explicá-lo, menosprezá-lo, talvez caiba aos grandes pensadores. Mas a mim me interessa exclusivamente que e seja capaz de amar o mundo, de não sentir desprezo por ele, de não odiar nem a ele nem a mim mesmo, de contemplar a ele, a mim, a todas as criaturas com amor, admiração e reverência.\n\n“This is what you should teach me, how to be like Odysseus—how to love my country, wife and father, and how, even after suffering shipwreck, I might keep sailing on course to those honorable ends.”\n\nO amor é originalmente um simples impulso de aproximação, e um instinto de agarrar.\n\nQuer ganhe voz ou não, o pensamento é uma coisa real e tem o poder da realidade.\n\nThe leader, convinced that he might be betrayed, acts first and betrays others first.\n\nWe’re dealing with the real world here. What matters is how you’re going to deal with this situation right in front of you and whether you’re going to be able to move past it and onto the next one.\n\nNão era pedante, não pregava para seus leitores. Buscava primeiro o entretenimento, enquanto ensinava ao longo do caminho.\n\nLearning to see in a different way requires that you use your brain differently\n\nNão subestime o poder que existe dentro de você tanto para o bem como para o mal. Escolha o bem.\n\nPois uma alma verdadeiramente máscula é solícita, e é solícita por ser máscula.\n\n“Você reparou em meu servo Jó? Não há ninguém na terra como ele. É homem íntegro e correto, teme a Deus e se mantém afastado do mal”.\n\n\"The way to happiness: keep your heart free from hate, your mind from worry. Live simply, expect little, give much. Fill your life with love. Scatter sunshine. Forget self, think of others. Do as you would be done by. Try this for a week and you will be surprised.\"",
+  "temperature": 1.3572060753383748,
+  "id": "540368f2-7c5d-4ad3-95f5-70c70520eb78"
+}
+Descrição para o vídeo:
+**Aprenda a encontrar sua força interior e escolher o amor**
+#Empoderamento #AmorIncondicional #EscolhaPositiva #ForçaInterior #InspiraçãoDiária
+🎵 Preludium - R. Führer by Juliano Molteni
+
+Musica:
+{
+  "id": "2242675",
+  "name": "Preludium - R. Führer",
+  "duration": 29,
+  "artist_id": "599201",
+  "artist_name": "Juliano Molteni",
+  "artist_idstr": "Juliano_Molteni_(2)",
+  "album_name": "The Best of Easy Organ Preludes, Vol.1",
+  "album_id": "598468",
+  "license_ccurl": "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+  "position": 6,
+  "releasedate": "2025-03-31",
+  "album_image": "https://usercontent.jamendo.com?type=album&id=598468&width=300&trackid=2242675",
+  "audio": "https://prod-1.storage.jamendo.com/?trackid=2242675&format=mp31&from=Ze57iKayl%2FwQm0Af3zAIJg%3D%3D%7C6Y%2FStIx0zoFbNr4qx0Bg%2Fw%3D%3D",
+  "audiodownload": "https://prod-1.storage.jamendo.com/download/track/2242675/mp32/",
+  "prourl": "",
+  "shorturl": "https://jamen.do/t/2242675",
+  "shareurl": "https://www.jamendo.com/track/2242675",
+  "waveform": "{\"peaks\": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 12, 25, 33, 46, 55, 61, 77, 64, 80, 59, 78, 69, 74, 83, 67, 87, 72, 84, 71, 84, 80, 81, 89, 71, 95, 69, 90, 73, 83, 72, 79, 81, 69, 91, 65, 90, 69, 83, 76, 73, 84, 70, 91, 63, 90, 69, 82, 81, 73, 85, 69, 89, 64, 86, 66, 81, 77, 73, 85, 64, 88, 71, 86, 72, 81, 81, 72, 90, 65, 86, 72, 85, 82, 76, 72, 82, 87, 74, 69, 76, 85, 81, 70, 74, 91, 82, 70, 75, 85, 80, 74, 72, 82, 73, 68, 75, 82, 83, 68, 76, 83, 75, 72, 71, 81, 68, 63, 54, 48, 53, 54, 53, 55, 63, 65, 59, 60, 62, 66, 63, 64, 67, 68, 67, 66, 68, 68, 68, 68, 67, 66, 69, 71, 72, 75, 73, 74, 71, 78, 78, 77, 80, 78, 77, 80, 82, 80, 82, 78, 84, 84, 83, 80, 84, 84, 86, 86, 86, 88, 89, 88, 90, 87, 88, 90, 89, 91, 90, 90, 92, 93, 94, 96, 97, 99, 95, 97, 98, 98, 98, 93, 95, 96, 97, 92, 96, 93, 97, 94, 97, 96, 100, 98, 98, 98, 97, 99, 93, 99, 96, 97, 96, 98, 98, 97, 96, 94, 98, 96, 96, 88, 84, 87, 82, 82, 84, 86, 79, 79, 83, 78, 80, 81, 84, 82, 80, 85, 81, 82, 80, 78, 84, 83, 86, 85, 84, 88, 84, 85, 81, 78, 87, 81, 81, 86, 79, 73, 70, 75, 68, 73, 72, 72, 72, 69, 65, 74, 66, 67, 70, 62, 67, 61, 69, 69, 71, 66, 68, 68, 70, 69, 71, 62, 73, 68, 69, 74, 67, 66, 63, 68, 72, 85, 69, 64, 63, 64, 78, 83, 75, 63, 63, 71, 75, 76, 71, 67, 68, 72, 71, 77, 76, 75, 66, 66, 69, 73, 76, 73, 67, 62, 67, 72, 76, 54, 50, 64, 77, 82, 69, 59, 67, 65, 74, 74, 69, 60, 66, 76, 72, 74, 69, 73, 75, 81, 79, 79, 70, 72, 73, 73, 78, 71, 76, 73, 78, 71, 78, 76, 72, 75, 74, 81, 74, 75, 72, 81, 70, 76, 74, 77, 74, 74, 72, 73, 76, 74, 70, 72, 77, 74, 73, 78, 76, 75, 77, 80, 76, 77, 80, 79, 76, 79, 79, 74, 77, 75, 74, 74, 74, 75, 73, 76, 75, 75, 82, 73, 80, 77, 79, 76, 76, 74, 71, 77, 70, 74, 68, 75, 72, 74, 71, 70, 71, 69, 74, 69, 71, 72, 77, 72, 67, 65, 62, 64, 66, 71, 70, 70, 63, 70, 68, 69, 73, 71, 72, 77, 70, 73, 80, 75, 73, 77, 83, 76, 79, 84, 79, 73, 76, 80, 75, 76, 77, 82, 78, 78, 83, 81, 76, 80, 88, 80, 78, 80, 65, 69, 65, 74, 62, 72, 68, 65, 62, 68, 75, 62, 65, 71, 74, 60, 71, 73, 75, 65, 73, 72, 76, 70, 69, 68, 74, 68, 63, 73, 68, 64, 65, 76, 77, 69, 64, 69, 76, 66, 63, 65, 74, 58, 67, 66, 70, 64, 61, 70, 65, 63, 63, 70, 62, 61, 69, 69, 67, 58, 75, 64, 71, 65, 74, 66, 64, 72, 60, 69, 72, 69, 70, 65, 71, 59, 69, 61, 59, 59, 53, 62, 53, 52, 54, 57, 53, 56, 57, 60, 49, 64, 59, 61, 51, 60, 53, 58, 58, 61, 55, 57, 61, 60, 56, 61, 64, 58, 60, 67, 62, 60, 63, 68, 65, 63, 64, 66, 66, 69, 67, 65, 62, 63, 63, 64, 63, 63, 62, 61, 61, 60, 60, 60, 59, 60, 59, 53, 55, 55, 54, 55, 55, 55, 54, 56, 55, 56, 59, 59, 58, 59, 62, 58, 58, 63, 65, 63, 68, 70, 68, 71, 71, 72, 75, 71, 81, 74, 77, 77, 83, 77, 73, 80, 73, 84, 75, 85, 74, 83, 78, 85, 75, 82, 77, 82, 79, 85, 77, 75, 85, 77, 89, 77, 91, 78, 88, 80, 90, 76, 94, 81, 88, 82, 83, 79, 87, 97, 61, 98, 63, 84, 75, 76, 78, 79, 67, 79, 78, 72, 85, 72, 87, 65, 83, 76, 81, 89, 69, 97, 66, 93, 66, 88, 71, 73, 86, 66, 92, 61, 89, 69, 82, 76, 72, 86, 65, 90, 61, 88, 67, 80, 77, 69, 84, 63, 89, 61, 85, 64, 77, 76, 69, 83, 65, 89, 66, 84, 70, 74, 81, 71, 87, 62, 90, 68, 85, 73, 76, 79, 69, 84, 63, 86, 65, 83, 75, 70, 84, 67, 89, 67, 87, 65, 84, 69, 65, 56, 37, 40, 31, 36, 30, 32, 26, 23, 22, 18, 19, 15, 17, 12, 14, 13, 12, 13, 12, 14, 11, 13, 8, 9, 7, 7, 6, 6, 6, 6, 6, 5, 4, 4, 4, 3, 3, 3, 2, 3, 2, 2, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]}",
+  "image": "https://usercontent.jamendo.com?type=album&id=598468&width=300&trackid=2242675",
+  "audiodownload_allowed": true
+}

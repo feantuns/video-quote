@@ -1,0 +1,86 @@
+
+Video:
+{
+  "id": 23263,
+  "pageURL": "https://pixabay.com/videos/id-23263/",
+  "type": "film",
+  "tags": "dandelion, faded, seeds, pointed flower, flying seeds, wildflower, umbrella, time lapse, timelapse",
+  "duration": 33,
+  "videos": {
+    "large": {
+      "url": "https://cdn.pixabay.com/video/2019/05/03/23263-334228232_large.mp4",
+      "width": 3840,
+      "height": 2160,
+      "size": 95623728,
+      "thumbnail": "https://cdn.pixabay.com/video/2019/05/03/23263-334228232_large.jpg"
+    },
+    "medium": {
+      "url": "https://cdn.pixabay.com/video/2019/05/03/23263-334228232_medium.mp4",
+      "width": 2560,
+      "height": 1440,
+      "size": 38650416,
+      "thumbnail": "https://cdn.pixabay.com/video/2019/05/03/23263-334228232_medium.jpg"
+    },
+    "small": {
+      "url": "https://cdn.pixabay.com/video/2019/05/03/23263-334228232_small.mp4",
+      "width": 1920,
+      "height": 1080,
+      "size": 18989741,
+      "thumbnail": "https://cdn.pixabay.com/video/2019/05/03/23263-334228232_small.jpg"
+    },
+    "tiny": {
+      "url": "https://cdn.pixabay.com/video/2019/05/03/23263-334228232_tiny.mp4",
+      "width": 1280,
+      "height": 720,
+      "size": 8659731,
+      "thumbnail": "https://cdn.pixabay.com/video/2019/05/03/23263-334228232_tiny.jpg"
+    }
+  },
+  "views": 157495,
+  "downloads": 83959,
+  "likes": 1144,
+  "comments": 291,
+  "user_id": 4994132,
+  "user": "adege",
+  "userImageURL": "https://cdn.pixabay.com/user/2022/04/26/15-17-47-992_250x250.jpg",
+  "noAiTraining": false
+}
+Quote:
+{
+  "text": "A busca por conexões humanas é uma jornada de autoconhecimento e superação.",
+  "mood": "emocional",
+  "tags": "animals flowers sky",
+  "hashtags": "#Felicidade #Sucesso #Vidasaudável #Autoconhecimento #Meditação",
+  "description": "Descobrindo o valor das conexões humanas em nossas vidas.",
+  "prompt": "Crie citações-síntese a partir do conjunto das citações abaixo de forma que as sumarize em uma nova frase de até 120 caracteres. Gere 3 versões com tons diferentes (filosófico, emocional, poético, provocador etc.). 2 com algum dos tons de exemplo (escolhidos de forma aleatória) e 1 com um tom aleatório (sem ser algum dos que citei) que você acredite fazer sentido para o contexto após análise das citações, sempre mantendo o mais humano possível.Não ultrapasse o limite de 120 em nenhuma delas e considere os espaços em branco entre as palavras na contagem de caracteres! Dito isto, gere cada uma com um tamanho diferente, a primeira curta, a segunda média e a terceira só um pouquinho maior que a segunda. As citações-síntese devem ser retornadas em um array JSON, com cada objeto contendo as propriedades \"text\" e \"mood\". Além disso, adicione uma propriedade \"tags\" contendo palavras-chave em inglês que possam ser usadas para buscar vídeos de fundo que remetam às citações. As tags devem ser palavras concretas como \"nature\", \"animals\", \"mountains\", \"sea\", \"fish\" e outras baseadas mas não limitadas a essas. e devem ser combinadas em uma string separadas apenas por espaço em branco. Adicione também uma propriedade \"hashtags\" que sejam 5 ou mais palavras otimizadas comumente usadas em vídeos de sucesso para que o vídeo tenha mais chances de ser visto nas mais variadas plataformas como tiktok, youtube shorts e instagram reels para um público brasileiro. Por fim, adicione uma propriedade \"description\" que será a descrição usada no vídeo. O resultado deve ser um json válido dessa forma: {\"body\": array com as 3 citações}.\n\nCitações:\n\nThe basic equation of biological and economic life is one of limited supply of necessary goods and competition for those goods. Just as biological entities compete for limited usable energy, so too do economic entities compete for limited customer wealth and limited demand for their products. The point at which supply and demand for a given good are equal is called an equilibrium; however, in practical life, equilibrium points tend to be dynamic and changing, never static.\n\nonde há pombas, aparecerão outras pombas;\n\nOver time, the person who approaches life with an openness to being wrong and a willingness to learn outperforms the person who doesn’t.\n\nWhat does it mean to be lonely? How do we live, if we’re not intimately engaged with another human being? How do we connect with other people, particularly if we don’t find speaking easy? Is sex a cure for loneliness, and if it is, what happens if our body or sexuality is considered deviant or damaged, if we are ill or unblessed with beauty? And is technology helping with these things? Does it draw us closer together, or trap us behind screens?\n\nMt 18.10. “Tomem cuidado para não desprezar nenhum destes pequeninos. Pois eu lhes digo que, no céu, os anjos deles estão sempre na presença de meu Pai celestial”.\n\nIt is in Music, perhaps, that the soul most nearly attains the great end for which, when inspired by the Poetic Sentiment, it struggles—the creation of supernal Beauty.\n\nFor all good and evil, whether in the body or in human nature, originates, as he declared, in the soul, and overflows from thence, as if from the head into the eyes.\n\nFame increases for the one who stands alert, Mindful, and of pure deeds; Who with due consideration acts, restrained, Who lives dhamma, being aware.\n\nNo fundo, sinto-me feliz comigo mesma. Não me importo em estar sozinha.\n\nTambém se tornara um homem feliz, e a felicidade multiplica a capacidade de realizações.\n\n“No person has the power to have everything they want, but it is in their power not to want what they don’t have, and to cheerfully put to good use what they do have.”\n\nO assassinato de irmãos é endêmico, mesmo hoje: Kim Jong-un matou o irmão.\n\nNas pequenas coisas que faço bem, vejo uma imagem das grandes coisas bem-feitas no mundo.\n\nThe paradox seems to be, as Socrates demonstrated long ago, that the truly free individual is free only to the extent of his own self-mastery. While those who will not govern themselves are condemned to find masters to govern over them.",
+  "temperature": 1.9812967679678979,
+  "id": "f372d939-7809-4e72-8ead-b4303e4c17af"
+}
+Descrição para o vídeo:
+**Descobrindo o valor das conexões humanas em nossas vidas.**
+#Felicidade #Sucesso #Vidasaudável #Autoconhecimento #Meditação
+🎵 Klaviersonate Andante Cantab. Mozart by Jürgen Döring
+
+Musica:
+{
+  "id": "1731604",
+  "name": "Klaviersonate Andante Cantab. Mozart",
+  "duration": 395,
+  "artist_id": "526801",
+  "artist_name": "Jürgen Döring",
+  "artist_idstr": "Jurgen_Doring",
+  "album_name": "Classic Piano Dreams",
+  "album_id": "191366",
+  "license_ccurl": "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+  "position": 9,
+  "releasedate": "2020-02-11",
+  "album_image": "https://usercontent.jamendo.com?type=album&id=191366&width=300&trackid=1731604",
+  "audio": "https://prod-1.storage.jamendo.com/?trackid=1731604&format=mp31&from=a%2Br%2FxsEzv4Hpoo4Thq8Vtw%3D%3D%7CBeQBvO%2BLdiu0i0G7JMLObg%3D%3D",
+  "audiodownload": "https://prod-1.storage.jamendo.com/download/track/1731604/mp32/",
+  "prourl": "https://licensing.jamendo.com/track/1731604",
+  "shorturl": "https://jamen.do/t/1731604",
+  "shareurl": "https://www.jamendo.com/track/1731604",
+  "waveform": "{\"peaks\":[29,22,20,26,17,31,47,32,26,17,17,31,26,16,16,20,10,4,43,48,77,67,63,85,86,64,49,61,25,34,22,17,28,26,41,25,14,12,8,11,7,38,27,25,58,43,32,34,16,15,30,27,33,32,42,29,17,39,33,20,12,7,17,26,20,29,30,28,18,10,24,24,37,26,16,11,9,11,17,25,24,16,25,23,33,44,36,18,22,15,38,23,12,22,15,8,19,34,77,57,68,81,67,96,50,62,35,20,36,24,16,38,23,42,20,12,15,9,11,28,23,29,41,56,34,36,23,22,13,44,29,26,43,35,23,29,34,26,16,10,12,20,26,21,33,32,23,13,14,27,35,30,24,15,9,11,8,25,17,24,28,34,36,19,13,32,33,44,41,42,57,63,54,35,30,23,27,18,58,44,38,55,44,24,68,47,28,37,42,75,54,34,15,14,13,56,45,66,54,42,79,59,45,43,26,31,40,39,45,33,26,17,12,26,17,10,12,6,13,29,55,25,36,50,25,21,51,27,23,37,23,16,16,10,15,29,18,21,18,33,29,23,26,20,21,36,26,77,73,53,34,41,13,42,82,85,78,89,51,34,23,48,21,15,18,19,22,35,23,8,6,6,22,15,23,32,25,38,19,12,29,22,50,38,34,66,62,54,38,35,19,26,29,50,48,41,48,45,23,53,43,21,41,56,64,54,28,12,17,10,68,57,52,57,45,77,47,47,43,27,28,47,45,38,38,22,15,19,21,15,7,14,11,7,55,45,23,53,35,23,34,39,22,28,36,19,14,16,12,21,25,15,25,23,34,27,18,27,23,22,34,48,63,75,49,40,40,25,41,100,89,61,88,40,29,34,38,18,15,17,24,19,46,21,8,7,6,26,22,17,25,14,35,18,16,14,15,21,27,19,34,43,42,19,13,12,27,22,30,38,25,34,21,14,13,16,19,27,22,23,39,16,33,21,15,14,15,21,23,17,18,35,28,33,53,36,72,60,63,61,67,84,39,12,8,6,5,2,15,28,31,26,27,29,16,11,12,13,29,29,28,14,10,7,5,26,22,17,25,14,35,21,17,15,16,21,27,21,33,45,42,21,11,11,27,23,26,27,21,32,19,13,12,14,19,26,22,24,38,17,33,21,15,14,15,21,23,17,18,35,28,33,51,36,67,64,46,57,61,75,33,10,6,5,4,4,15,28,29,26,25,30,16,11,12,13,30,30,26,14,10,7,11,10,12,16,21,18,16,14,25,25,29,27,28,33,30,19,14,38,64,54,56,37,41,32,29,23,22,25,21,20,33,45,28,15,19,25,48,23,18,20,28,28,17,19,64,36,23,29,49,44,26,20,74,60,81,83,67,53,37,36,45,17,16,33,32,30,51,23,10,7,6,15,11,9,27,19,10,16,24,23,27,31,24,33,34,18,15,36,54,47,70,38,32,43,29,23,17,32,21,13,41,37,35,17,18,11,57,28,14,21,29,27,16,22,55,42,16,36,44,44,29,25,58,50,92,81,64,67,47,35,50,22,16,31,27,37,43,36,12,8,7,23,15,26,19,17,31,20,18,17,11,24,24,23,33,33,57,26,17,14,17,15,22,22,22,23,25,16,16,14,20,12,25,17,28,18,44,17,10,6,2,7,29,23,17,24,20,30,43,28,20,20,15,37,26,15,20,16,8,11,39,62,64,69,71,77,92,56,64,55,18,44,26,20,35,20,46,22,13,14,9,12,16,30,28,26,65,38,33,30,21,17,37,25,30,37,37,27,21,37,36,19,11,11,20,28,17,33,31,25,15,9,29,28,33,25,16,10,10,10,21,15,23,34,25,38,19,13,28,17,55,37,33,66,53,63,40,24,33,23,19,54,42,42,54,39,34,63,43,39,34,37,76,55,41,19,11,16,44,47,88,60,46,71,65,42,43,30,30,36,43,48,28,31,17,13,25,16,11,12,7,12,25,57,26,35,53,28,19,52,28,24,47,35,21,19,12,15,28,19,20,18,32,29,24,24,20,22,34,25,76,72,60,36,50,24,39,62,89,83,69,58,34,22,49,26,16,17,12,29,29,37,13,7,7,18,19,33,16,31,28,29,19,15,20,45,43,28,22,15,34,22,18,17,24,33,35,29,41,36,54,25,17,15,24,24,22,15,23,16,22,15,5,3,2,1,0,0]}",
+  "image": "https://usercontent.jamendo.com?type=album&id=191366&width=300&trackid=1731604",
+  "audiodownload_allowed": true
+}

@@ -90,6 +90,9 @@ Citações:
 
 `;
 
+const model = "meta-llama/llama-4-scout-17b-16e-instruct";
+// const model = "deepseek-r1-distill-llama-70b"; // ruim
+
 (async () => {
   try {
     const highlights = await getHighlights();
@@ -107,7 +110,7 @@ Citações:
           content: prompt,
         },
       ],
-      model: "meta-llama/llama-4-scout-17b-16e-instruct",
+      model,
       temperature,
       max_completion_tokens: 1024,
       top_p: 1,

@@ -1,0 +1,86 @@
+
+Video:
+{
+  "id": 72566,
+  "pageURL": "https://pixabay.com/videos/id-72566/",
+  "type": "film",
+  "tags": "bike, beach, biker, mountain bike, e-bike, cycling, mountain biking, nature, sport, cyclists, mountains, ebike, corsican, summer, bosch, wheel, electrically, pedelec, sporty, landscape, live wallpaper",
+  "duration": 32,
+  "videos": {
+    "large": {
+      "url": "https://cdn.pixabay.com/video/2021/04/29/72566-543910236_large.mp4",
+      "width": 3840,
+      "height": 2160,
+      "size": 98924269,
+      "thumbnail": "https://cdn.pixabay.com/video/2021/04/29/72566-543910236_large.jpg"
+    },
+    "medium": {
+      "url": "https://cdn.pixabay.com/video/2021/04/29/72566-543910236_medium.mp4",
+      "width": 2560,
+      "height": 1440,
+      "size": 54430729,
+      "thumbnail": "https://cdn.pixabay.com/video/2021/04/29/72566-543910236_medium.jpg"
+    },
+    "small": {
+      "url": "https://cdn.pixabay.com/video/2021/04/29/72566-543910236_small.mp4",
+      "width": 1920,
+      "height": 1080,
+      "size": 23291618,
+      "thumbnail": "https://cdn.pixabay.com/video/2021/04/29/72566-543910236_small.jpg"
+    },
+    "tiny": {
+      "url": "https://cdn.pixabay.com/video/2021/04/29/72566-543910236_tiny.mp4",
+      "width": 1280,
+      "height": 720,
+      "size": 12216433,
+      "thumbnail": "https://cdn.pixabay.com/video/2021/04/29/72566-543910236_tiny.jpg"
+    }
+  },
+  "views": 309753,
+  "downloads": 132170,
+  "likes": 1337,
+  "comments": 316,
+  "user_id": 21390568,
+  "user": "mathieu-echeverri",
+  "userImageURL": "https://cdn.pixabay.com/user/2021/04/29/10-39-44-443_250x250.jpeg",
+  "noAiTraining": false
+}
+Quote:
+{
+  "text": "Viver é simples, basta aceitar a beleza do mundo.",
+  "mood": "poético",
+  "tags": "nature mountains",
+  "hashtags": "#VidaSimples #Feliz #Aceitação",
+  "description": "Aceite a beleza do mundo e viva plenamente.",
+  "prompt": "Crie citações-síntese a partir do conjunto das citações abaixo de forma que as sumarize em uma nova frase de até 120 caracteres. Gere 3 versões com tons diferentes (filosófico, emocional, poético, provocador etc.). 2 com algum dos tons de exemplo (escolhidos de forma aleatória) e 1 com um tom aleatório (sem ser algum dos que citei) que você acredite fazer sentido para o contexto após análise das citações, sempre mantendo o mais humano possível.Não ultrapasse o limite de 120 em nenhuma delas e considere os espaços em branco entre as palavras na contagem de caracteres! Dito isto, gere cada uma com um tamanho diferente, a primeira curta, a segunda média e a terceira só um pouquinho maior que a segunda. As citações-síntese devem ser retornadas em um array JSON, com cada objeto contendo as propriedades \"text\" e \"mood\". Além disso, adicione uma propriedade \"tags\" contendo palavras-chave em inglês que possam ser usadas para buscar vídeos de fundo que remetam às citações. As tags devem ser palavras concretas como \"nature\", \"animals\", \"mountains\", \"sea\", \"fish\" e outras baseadas mas não limitadas a essas. e devem ser combinadas em uma string separadas apenas por espaço em branco. Adicione também uma propriedade \"hashtags\" que sejam 5 ou mais palavras otimizadas comumente usadas em vídeos de sucesso para que o vídeo tenha mais chances de ser visto nas mais variadas plataformas como tiktok, youtube shorts e instagram reels para um público brasileiro. Por fim, adicione uma propriedade \"description\" que será a descrição usada no vídeo. O resultado deve ser um json válido dessa forma: {\"body\": array com as 3 citações}.\n\nCitações:\n\nAt some point in life the world's beauty becomes enough. You don't need to photograph, paint or even remember it. It is enough.\n\nOf entrance to a quarrel, but being in, Bear’t that th’ opposed may beware of thee.\n\nTo be human is to grow, challenge yourself, and strive to always become better.\n\nJá percebeu como as pessoas mais sábias, geralmente observam muito e opinam pouco? **Isso não faz delas negligentes ou ignorantes.** Apenas seletivas e competentes sobre o seu lugar e sobre o que é relevante na vida delas.\n\nThis is exactly why teams sit together (or do pair programming) in software engineering companies. Programming is hard. Software engineering is even harder. You need that second pair of eyes.\n\nE então sofrem, é claro, mas... em compensação, vivem apesar de tudo, vivem na realidade, não na fantasia; porque o sofrimento é que é vida.\n\nAlguém fica com toda a honra do bem para toda a vida, ao passo que a mim só me foi\ndeixada a sordidez como sina.\n\n‘What differ more (you cry) than crown and cowl?’ I’ll tell you, friend! a wise man and a fool.\n\nThis concept, which recognizes that the formal event is merely the culmination of a lengthy process, has broad application to everyday life. Whether producing a delicious homemade cake or taking a final examination, the success of these events depends upon forethought and timely enterprise.\n\nFicaram frente a frente no escritório particular de Seldon, que ele chamava de seu 'lugar de pensar'\n\nEm nossa própria vida, com frequência é raro que compreendamos pessoas que conhecemos bem.\n\nKnowledge sharing starts with yourself. It is important to recognize that you always have something to learn.\n\nSerá que amamos uma coisa porque é bela, ou ela fica bela por ser amada?\n\nThe superheroes you have in your mind (idols, icons, titans, billionaires, etc.) are nearly all walking flaws who've maximized 1 or 2 strengths.",
+  "temperature": 1.8805998688210634,
+  "id": "7969b533-c289-4cd7-9cd2-73d3371ae2b1"
+}
+Descrição para o vídeo:
+**Aceite a beleza do mundo e viva plenamente.**
+#VidaSimples #Feliz #Aceitação
+🎵 We shape the Dawn (piano solo) by Child of fantasia
+
+Musica:
+{
+  "id": "310969",
+  "name": "We shape the Dawn (piano solo)",
+  "duration": 364,
+  "artist_id": "348727",
+  "artist_name": "Child of fantasia",
+  "artist_idstr": "Child_of_fantasia",
+  "album_name": "For all the Dreamers",
+  "album_id": "42118",
+  "license_ccurl": "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+  "position": 15,
+  "releasedate": "2009-03-17",
+  "album_image": "https://usercontent.jamendo.com?type=album&id=42118&width=300&trackid=310969",
+  "audio": "https://prod-1.storage.jamendo.com/?trackid=310969&format=mp31&from=XtiatLYaR5Rdecl3eFv51g%3D%3D%7CzTvqM%2FWMLBs5YIhN%2B9oY3Q%3D%3D",
+  "audiodownload": "https://prod-1.storage.jamendo.com/download/track/310969/mp32/",
+  "prourl": "",
+  "shorturl": "https://jamen.do/t/310969",
+  "shareurl": "https://www.jamendo.com/track/310969",
+  "waveform": "{\"peaks\":[0,0,0,0,7,8,5,6,3,3,2,1,1,1,8,9,5,4,3,2,4,5,7,5,13,9,4,6,3,4,8,3,4,3,2,1,1,1,9,6,2,1,2,7,9,4,2,9,5,7,5,4,3,12,8,4,3,3,6,5,4,10,6,7,5,3,4,2,4,11,7,6,11,14,13,10,8,5,5,6,16,16,8,4,3,5,3,4,3,2,2,8,5,2,1,1,1,1,1,5,4,3,11,6,4,3,2,8,9,4,23,9,4,3,14,18,7,10,14,9,14,8,5,4,5,3,9,9,11,11,6,5,4,4,3,4,4,5,10,6,5,4,6,6,4,3,14,8,18,24,12,7,7,14,5,4,2,3,38,18,13,8,9,14,6,5,4,3,12,5,3,3,5,6,5,4,3,2,14,19,14,12,11,15,10,6,5,6,13,7,5,8,10,13,9,11,9,8,5,7,11,9,11,7,6,23,14,31,19,13,10,11,11,13,10,15,16,23,18,19,18,39,24,24,20,16,9,26,16,11,8,6,21,5,3,3,3,12,16,28,24,24,30,26,30,34,21,22,23,28,47,37,34,36,32,32,38,28,42,49,60,41,37,43,47,52,39,43,50,52,55,65,45,33,31,28,42,32,44,30,28,27,55,38,55,32,45,69,47,55,63,50,38,34,33,28,30,32,46,42,49,33,41,43,46,54,41,45,42,64,64,40,49,63,55,49,47,43,55,55,62,41,53,55,47,42,40,43,42,40,36,40,35,41,48,60,42,56,59,69,89,51,56,50,41,41,51,50,55,38,52,86,66,58,52,47,74,89,53,45,54,80,81,50,51,63,75,52,48,66,41,54,41,46,54,52,54,53,68,67,55,54,60,46,56,74,63,49,55,95,78,67,69,62,65,58,65,59,60,48,75,55,83,54,54,55,52,44,58,97,81,86,61,56,64,71,48,56,50,59,65,58,48,61,91,81,79,60,85,92,100,93,68,57,81,77,90,81,55,78,83,78,80,32,10,14,21,19,25,24,18,18,48,23,21,12,19,40,22,25,20,19,36,38,41,41,42,52,56,45,48,53,44,59,61,54,56,42,53,54,51,56,53,77,77,55,56,51,53,65,50,48,46,50,84,66,58,57,49,60,55,49,55,48,67,68,84,60,55,55,74,53,57,76,80,85,77,56,64,75,76,76,54,78,65,58,80,74,52,40,37,42,35,31,43,30,21,16,30,15,14,16,29,21,14,25,36,28,22,31,27,18,13,13,18,10,8,6,6,24,23,21,27,19,14,22,21,30,28,21,13,15,36,28,30,57,32,16,27,20,21,25,22,17,15,21,26,31,26,19,16,24,28,31,25,16,11,17,20,25,21,21,19,14,14,20,28,37,30,36,22,29,22,27,39,31,25,33,33,33,38,27,22,20,29,18,28,37,19,20,22,16,21,30,48,46,36,32,28,32,31,37,39,31,25,26,43,49,57,40,33,30,29,40,50,32,19,26,21,27,31,29,39,37,33,24,28,32,18,13,17,30,30,33,45,44,37,29,35,35,48,44,38,46,40,41,49,38,37,35,31,28,33,36,31,19,22,23,18,19,26,22,31,34,33,31,33,26,20,19,19,17,17,24,29,28,40,32,42,34,33,44,58,45,44,28,27,37,43,51,37,34,25,24,42,50,35,18,24,26,40,47,52,42,40,43,35,26,21,14,15,16,26,37,56,30,34,27,33,41,49,28,36,25,22,39,33,39,41,44,38,31,36,39,35,27,23,24,21,27,27,26,43,45,42,33,28,23,20,20,13,9,10,23,30,35,40,44,35,34,49,48,68,48,31,24,29,38,40,42,29,31,27,22,28,35,38,35,30,48,44,22,41,50,46,41,63,30,32,60,39,32,64,36,28,53,37,40,54,44,21,42,49,44,38,63,27,24,60,40,35,63,32,29,57,37,42,55,44,27,41,44,39,40,61,26,22,60,40,30,27,22,26,22,20,13,12,10,9,6,6,6,5,5,5,4,5,4,6,4,5,4,4,4,3,3,3,3,2,3,3,3,3,2,2,1,2,2,2,2,1,1,1,1,2,2,1,1,1,1,1,1,2,2,2,2,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]}",
+  "image": "https://usercontent.jamendo.com?type=album&id=42118&width=300&trackid=310969",
+  "audiodownload_allowed": true
+}
